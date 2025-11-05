@@ -35,7 +35,7 @@ const ShoppingCartComponent: React.FC<ShoppingCartProps> = ({
       {/* Cart Toggle Button */}
       <button
         onClick={onToggle}
-        className={`fixed top-6 right-6 z-50 bg-amber-700 hover:bg-amber-800 text-white p-4 rounded-full shadow-lg transition-all duration-300 ${
+        className={`fixed top-20 right-6 z-50 bg-amber-700 hover:bg-amber-800 text-white p-4 rounded-full shadow-lg transition-all duration-300 ${
           isOpen ? 'transform rotate-180' : ''
         }`}
       >
