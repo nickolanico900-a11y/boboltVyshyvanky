@@ -152,9 +152,9 @@ function App() {
       color: 'Чорний з червоним',
       sleeveLength: 'Довгий',
       price: 1200,
-      image: 'https://i.ibb.co/wFZ8XWSt/getman1.png'
-      image2: 'https://i.ibb.co/Z6QVmrg9/getman2.png'
-      image3: 'https://i.ibb.co/v6Sgwbgx/getman3.png'
+      image: 'https://i.ibb.co/wFZ8XWSt/getman1.png',
+      image2: 'https://i.ibb.co/Z6QVmrg9/getman2.png',
+      image3: 'https://i.ibb.co/v6Sgwbgx/getman3.png',
       image4: 'https://i.ibb.co/HfBYy3f5/getman4.png'
     }
   ];
