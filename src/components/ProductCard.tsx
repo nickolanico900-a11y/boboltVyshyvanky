@@ -118,7 +118,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product, onAddToCart, openDro
       <div className={`bg-amber-50 rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 relative flex flex-col ${
         showSizes ? 'z-[100]' : 'z-10'
       }`}>
-        <div className="aspect-square mb-6 overflow-hidden rounded-lg relative group">
+        <div className="aspect-square mb-4 overflow-hidden rounded-lg relative">
           <img
             src={productImages[currentImageIndex]}
             alt={product.name}
@@ -127,45 +127,6 @@ const ProductCard: React.FC<ProductCardProps> = ({ product, onAddToCart, openDro
               objectPosition: getImagePosition()
             }}
           />
-
-          {/* Image navigation arrows */}
-          {hasMultipleImages && (
-            <>
-              <button
-                onClick={handlePrevImage}
-                className="absolute left-2 top-1/2 -translate-y-1/2 bg-white bg-opacity-95 hover:bg-opacity-100 rounded-full p-3 shadow-xl transition-all duration-200 z-10 hover:scale-110"
-                aria-label="Previous image"
-              >
-                <ChevronLeft className="w-6 h-6 text-amber-900" />
-              </button>
-              <button
-                onClick={handleNextImage}
-                className="absolute right-2 top-1/2 -translate-y-1/2 bg-white bg-opacity-95 hover:bg-opacity-100 rounded-full p-3 shadow-xl transition-all duration-200 z-10 hover:scale-110"
-                aria-label="Next image"
-              >
-                <ChevronRight className="w-6 h-6 text-amber-900" />
-              </button>
-
-              {/* Image indicators */}
-              <div className="absolute bottom-3 left-1/2 -translate-x-1/2 flex gap-2 z-10">
-                {productImages.map((_, index) => (
-                  <button
-                    key={index}
-                    onClick={(e) => {
-                      e.stopPropagation();
-                      setCurrentImageIndex(index);
-                    }}
-                    className={`h-2 rounded-full transition-all shadow-md ${
-                      index === currentImageIndex
-                        ? 'bg-amber-900 w-8'
-                        : 'bg-white bg-opacity-80 hover:bg-opacity-100 w-2'
-                    }`}
-                    aria-label={`Go to image ${index + 1}`}
-                  />
-                ))}
-              </div>
-            </>
-          )}
 
           {/* Product badges */}
           <div className="absolute top-3 left-3 flex flex-col gap-2">
@@ -180,6 +141,35 @@ const ProductCard: React.FC<ProductCardProps> = ({ product, onAddToCart, openDro
             </div>
           </div>
         </div>
+
+        {/* Image carousel under the image */}
+        {hasMultipleImages && (
+          <div className="flex items-center justify-center gap-2 mb-4">
+            {productImages.map((_, index) => (
+              <button
+                key={index}
+                onClick={(e) => {
+                  e.stopPropagation();
+                  setCurrentImageIndex(index);
+                }}
+                className={`h-16 w-16 rounded-lg overflow-hidden border-2 transition-all ${
+                  index === currentImageIndex
+                    ? 'border-amber-900 shadow-lg scale-105'
+                    : 'border-amber-200 hover:border-amber-500 opacity-60 hover:opacity-100'
+                }`}
+              >
+                <img
+                  src={productImages[index]}
+                  alt={`${product.name} - фото ${index + 1}`}
+                  className="w-full h-full object-cover"
+                  style={{
+                    objectPosition: getImagePosition()
+                  }}
+                />
+              </button>
+            ))}
+          </div>
+        )}
       
       <h3 className="text-xl font-bold text-amber-900 mb-3" style={{ fontFamily: 'PT Serif, serif' }}>
         {product.name}
