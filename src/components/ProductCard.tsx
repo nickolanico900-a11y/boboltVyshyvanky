@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { ShoppingCart, Check, Package, Leaf, MapPin } from 'lucide-react';
+import { ShoppingCart, Check, Package, Leaf, MapPin, ChevronLeft, ChevronRight } from 'lucide-react';
+import SizeChart from './SizeChart';
 
 interface Product {
   id: number;
@@ -10,6 +11,7 @@ interface Product {
   sleeveLength: string;
   price: number;
   image: string;
+  images?: string[];
 }
 
 interface CartItem {
@@ -31,8 +33,12 @@ interface ProductCardProps {
 const ProductCard: React.FC<ProductCardProps> = ({ product, onAddToCart, openDropdownId, setOpenDropdownId }) => {
   const [selectedSize, setSelectedSize] = useState<string>('');
   const [isAdded, setIsAdded] = useState(false);
+  const [isSizeChartOpen, setIsSizeChartOpen] = useState(false);
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   const showSizes = openDropdownId === product.id;
+  const productImages = product.images || [product.image];
+  const hasMultipleImages = productImages.length > 1;
 
   // Close dropdown when clicking outside or when another dropdown opens
   React.useEffect(() => {
@@ -49,6 +55,17 @@ const ProductCard: React.FC<ProductCardProps> = ({ product, onAddToCart, openDro
   const handleSizeSelect = (size: string) => {
     setSelectedSize(size);
     setOpenDropdownId(null);
+    setIsSizeChartOpen(false);
+  };
+
+  const handlePrevImage = (e: React.MouseEvent) => {
+    e.stopPropagation();
+    setCurrentImageIndex((prev) => (prev === 0 ? productImages.length - 1 : prev - 1));
+  };
+
+  const handleNextImage = (e: React.MouseEvent) => {
+    e.stopPropagation();
+    setCurrentImageIndex((prev) => (prev === productImages.length - 1 ? 0 : prev + 1));
   };
 
   const handleShowSizes = (e: React.MouseEvent) => {
@@ -91,32 +108,78 @@ const ProductCard: React.FC<ProductCardProps> = ({ product, onAddToCart, openDro
   };
 
   return (
-    <div className={`bg-amber-50 rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 relative flex flex-col ${
-      showSizes ? 'z-[100]' : 'z-10'
-    }`}>
-      <div className="aspect-square mb-6 overflow-hidden rounded-lg relative">
-        <img 
-          src={product.image}
-          alt={product.name}
-          className="w-full h-full object-cover object-center hover:scale-105 transition-transform duration-300"
-          style={{ 
-            objectPosition: getImagePosition()
-          }}
-        />
-        
-        {/* Product badges */}
-        <div className="absolute top-3 left-3 flex flex-col gap-2">
-          <div className="bg-white bg-opacity-90 rounded-full p-2 shadow-sm" title="Ручна робота">
-            <Package className="w-4 h-4 text-amber-700" />
-          </div>
-          <div className="bg-white bg-opacity-90 rounded-full p-2 shadow-sm" title="Натуральні матеріали">
-            <Leaf className="w-4 h-4 text-green-600" />
-          </div>
-          <div className="bg-white bg-opacity-90 rounded-full p-2 shadow-sm" title="Зроблено в Україні">
-            <MapPin className="w-4 h-4 text-blue-600" />
+    <>
+      <SizeChart
+        isOpen={isSizeChartOpen}
+        onClose={() => setIsSizeChartOpen(false)}
+        onSelectSize={handleSizeSelect}
+      />
+
+      <div className={`bg-amber-50 rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 relative flex flex-col ${
+        showSizes ? 'z-[100]' : 'z-10'
+      }`}>
+        <div className="aspect-square mb-6 overflow-hidden rounded-lg relative group">
+          <img
+            src={productImages[currentImageIndex]}
+            alt={product.name}
+            className="w-full h-full object-cover object-center hover:scale-105 transition-transform duration-300"
+            style={{
+              objectPosition: getImagePosition()
+            }}
+          />
+
+          {/* Image navigation arrows */}
+          {hasMultipleImages && (
+            <>
+              <button
+                onClick={handlePrevImage}
+                className="absolute left-2 top-1/2 -translate-y-1/2 bg-white bg-opacity-90 hover:bg-opacity-100 rounded-full p-2 shadow-lg transition-all opacity-0 group-hover:opacity-100"
+                aria-label="Previous image"
+              >
+                <ChevronLeft className="w-5 h-5 text-amber-900" />
+              </button>
+              <button
+                onClick={handleNextImage}
+                className="absolute right-2 top-1/2 -translate-y-1/2 bg-white bg-opacity-90 hover:bg-opacity-100 rounded-full p-2 shadow-lg transition-all opacity-0 group-hover:opacity-100"
+                aria-label="Next image"
+              >
+                <ChevronRight className="w-5 h-5 text-amber-900" />
+              </button>
+
+              {/* Image indicators */}
+              <div className="absolute bottom-3 left-1/2 -translate-x-1/2 flex gap-2">
+                {productImages.map((_, index) => (
+                  <button
+                    key={index}
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      setCurrentImageIndex(index);
+                    }}
+                    className={`w-2 h-2 rounded-full transition-all ${
+                      index === currentImageIndex
+                        ? 'bg-amber-900 w-6'
+                        : 'bg-white bg-opacity-70 hover:bg-opacity-100'
+                    }`}
+                    aria-label={`Go to image ${index + 1}`}
+                  />
+                ))}
+              </div>
+            </>
+          )}
+
+          {/* Product badges */}
+          <div className="absolute top-3 left-3 flex flex-col gap-2">
+            <div className="bg-white bg-opacity-90 rounded-full p-2 shadow-sm" title="Ручна робота">
+              <Package className="w-4 h-4 text-amber-700" />
+            </div>
+            <div className="bg-white bg-opacity-90 rounded-full p-2 shadow-sm" title="Натуральні матеріали">
+              <Leaf className="w-4 h-4 text-green-600" />
+            </div>
+            <div className="bg-white bg-opacity-90 rounded-full p-2 shadow-sm" title="Зроблено в Україні">
+              <MapPin className="w-4 h-4 text-blue-600" />
+            </div>
           </div>
         </div>
-      </div>
       
       <h3 className="text-xl font-bold text-amber-900 mb-3" style={{ fontFamily: 'PT Serif, serif' }}>
         {product.name}
@@ -136,38 +199,12 @@ const ProductCard: React.FC<ProductCardProps> = ({ product, onAddToCart, openDro
       {/* Size selection */}
       <div className="space-y-3">
         {!selectedSize ? (
-          <div className="relative">
-            <button
-              onClick={handleShowSizes}
-              className="w-full bg-amber-700 hover:bg-amber-800 text-white px-4 py-3 rounded-lg font-semibold transition-colors duration-200"
-            >
-              Обрати розмір
-            </button>
-            
-            {showSizes && (
-              <div 
-                className="absolute top-full left-0 right-0 mt-2 bg-white border border-amber-200 rounded-lg shadow-xl z-50 animate-slideDown"
-                style={{
-                  top: 'calc(100% + 8px)',
-                  left: '0',
-                  right: '0'
-                }}
-              >
-                {product.sizes.map((size) => (
-                  <button
-                    key={size}
-                    onClick={(e) => {
-                      e.stopPropagation();
-                      handleSizeSelect(size);
-                    }}
-                    className="w-full px-4 py-3 text-left hover:bg-amber-50 transition-colors duration-200 first:rounded-t-lg last:rounded-b-lg text-amber-900 border-b border-amber-100 last:border-b-0"
-                  >
-                    {size}
-                  </button>
-                ))}
-              </div>
-            )}
-          </div>
+          <button
+            onClick={() => setIsSizeChartOpen(true)}
+            className="w-full bg-amber-700 hover:bg-amber-800 text-white px-4 py-3 rounded-lg font-semibold transition-colors duration-200"
+          >
+            Обрати розмір
+          </button>
         ) : (
           <div className="space-y-2">
             <div className="flex items-center justify-between bg-amber-100 px-4 py-2 rounded-lg">
@@ -204,7 +241,8 @@ const ProductCard: React.FC<ProductCardProps> = ({ product, onAddToCart, openDro
           </div>
         )}
       </div>
-    </div>
+      </div>
+    </>
   );
 };
 
