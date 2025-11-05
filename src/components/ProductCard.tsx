@@ -133,21 +133,21 @@ const ProductCard: React.FC<ProductCardProps> = ({ product, onAddToCart, openDro
             <>
               <button
                 onClick={handlePrevImage}
-                className="absolute left-2 top-1/2 -translate-y-1/2 bg-white bg-opacity-90 hover:bg-opacity-100 rounded-full p-2 shadow-lg transition-all opacity-0 group-hover:opacity-100"
+                className="absolute left-2 top-1/2 -translate-y-1/2 bg-white bg-opacity-95 hover:bg-opacity-100 rounded-full p-3 shadow-xl transition-all duration-200 z-10 hover:scale-110"
                 aria-label="Previous image"
               >
-                <ChevronLeft className="w-5 h-5 text-amber-900" />
+                <ChevronLeft className="w-6 h-6 text-amber-900" />
               </button>
               <button
                 onClick={handleNextImage}
-                className="absolute right-2 top-1/2 -translate-y-1/2 bg-white bg-opacity-90 hover:bg-opacity-100 rounded-full p-2 shadow-lg transition-all opacity-0 group-hover:opacity-100"
+                className="absolute right-2 top-1/2 -translate-y-1/2 bg-white bg-opacity-95 hover:bg-opacity-100 rounded-full p-3 shadow-xl transition-all duration-200 z-10 hover:scale-110"
                 aria-label="Next image"
               >
-                <ChevronRight className="w-5 h-5 text-amber-900" />
+                <ChevronRight className="w-6 h-6 text-amber-900" />
               </button>
 
               {/* Image indicators */}
-              <div className="absolute bottom-3 left-1/2 -translate-x-1/2 flex gap-2">
+              <div className="absolute bottom-3 left-1/2 -translate-x-1/2 flex gap-2 z-10">
                 {productImages.map((_, index) => (
                   <button
                     key={index}
@@ -155,10 +155,10 @@ const ProductCard: React.FC<ProductCardProps> = ({ product, onAddToCart, openDro
                       e.stopPropagation();
                       setCurrentImageIndex(index);
                     }}
-                    className={`w-2 h-2 rounded-full transition-all ${
+                    className={`h-2 rounded-full transition-all shadow-md ${
                       index === currentImageIndex
-                        ? 'bg-amber-900 w-6'
-                        : 'bg-white bg-opacity-70 hover:bg-opacity-100'
+                        ? 'bg-amber-900 w-8'
+                        : 'bg-white bg-opacity-80 hover:bg-opacity-100 w-2'
                     }`}
                     aria-label={`Go to image ${index + 1}`}
                   />
