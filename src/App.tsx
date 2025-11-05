@@ -248,14 +248,6 @@ function App() {
                 <Phone className="w-4 h-4" />
                 <span className="hidden md:inline text-sm">+38 098 030 27 00</span>
               </a>
-              <a
-                href="mailto:vishivanochka.zp@gmail.com"
-                className="flex items-center gap-2 hover:text-white transition-colors"
-                title="Написати email"
-              >
-                <Mail className="w-4 h-4" />
-                <span className="hidden lg:inline text-sm">vishivanochka.zp@gmail.com</span>
-              </a>
             </div>
           </div>
         </div>
