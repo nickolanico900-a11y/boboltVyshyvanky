@@ -223,7 +223,7 @@ function App() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-amber-50 to-amber-100">
       {/* Header */}
-      <header className="fixed top-0 left-0 right-0 z-50 bg-amber-900 bg-opacity-85 backdrop-blur-sm shadow-lg">
+      <header className="fixed top-0 left-0 right-0 z-50 bg-amber-900 bg-opacity-65 backdrop-blur-sm shadow-lg">
         <div className="max-w-7xl mx-auto px-4 py-3">
           <div className="flex items-center justify-between">
             {/* Logo */}
