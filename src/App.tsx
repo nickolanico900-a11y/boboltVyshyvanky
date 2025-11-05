@@ -241,12 +241,12 @@ function App() {
             {/* Contact Info */}
             <div className="flex items-center gap-4 text-amber-100">
               <a
-                href="tel:+380508608887"
+                href="tel:+380980302700"
                 className="flex items-center gap-2 hover:text-white transition-colors"
                 title="Зателефонувати"
               >
                 <Phone className="w-4 h-4" />
-                <span className="hidden md:inline text-sm">+38 050 860 88 87</span>
+                <span className="hidden md:inline text-sm">+38 098 030 27 00</span>
               </a>
               <a
                 href="mailto:vishivanochka.zp@gmail.com"
