@@ -581,7 +581,7 @@ function App() {
                   </svg>
                 </a>
                 <a
-                  href="https://www.facebook.com/"
+                  href="https://www.facebook.com/profile.php?id=100067717373374"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-amber-800 hover:bg-amber-700 p-3 rounded-full transition-colors"
