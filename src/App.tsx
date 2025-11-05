@@ -143,16 +143,6 @@ function App() {
       sleeveLength: 'Довгий',
       price: 1200,
       image: 'https://i.ibb.co/PvD1JdXg/untitled-0.png'
-    },
-    {
-      id: 12,
-      name: 'Чоловіча вишиванка ручної вишивки. Петро 1',
-      sizes: ['S', 'M', 'L', 'XL', 'XXL', 'XXXL', 'XXXXL'],
-      fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
-      color: 'Чорний з червоним',
-      sleeveLength: 'Довгий',
-      price: 1200,
-      image: 'https://i.ibb.co/WvkP5bym/photo-2025-11-03-14-39-35-removebg-preview.png'
     }
   ];
 
