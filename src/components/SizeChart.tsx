@@ -22,10 +22,10 @@ const SizeChart: React.FC<SizeChartProps> = ({ isOpen, onClose, onSelectSize }) 
   ];
 
   return (
-    <div className="fixed inset-0 bg-black bg-opacity-50 z-[200] flex items-center justify-center p-4" onClick={onClose}>
-      <div className="bg-white rounded-2xl max-w-4xl w-full max-h-[90vh] overflow-y-auto" onClick={(e) => e.stopPropagation()}>
-        <div className="sticky top-0 bg-white border-b border-gray-200 p-6 flex items-center justify-between z-10">
-          <h2 className="text-2xl font-bold text-amber-900" style={{ fontFamily: 'Oswald, sans-serif' }}>
+    <div className="fixed inset-0 bg-black bg-opacity-50 z-[200] flex items-center justify-center p-4 overflow-y-auto" onClick={onClose}>
+      <div className="bg-white rounded-2xl max-w-4xl w-full my-4" onClick={(e) => e.stopPropagation()}>
+        <div className="bg-white border-b border-gray-200 p-4 sm:p-6 flex items-center justify-between">
+          <h2 className="text-xl sm:text-2xl font-bold text-amber-900" style={{ fontFamily: 'Oswald, sans-serif' }}>
             Розмірна сітка
           </h2>
           <button
@@ -36,24 +36,24 @@ const SizeChart: React.FC<SizeChartProps> = ({ isOpen, onClose, onSelectSize }) 
           </button>
         </div>
 
-        <div className="p-6">
-          <div className="overflow-x-auto">
+        <div className="p-4 sm:p-6 overflow-x-auto">
+          <div className="min-w-[500px]">
             <table className="w-full border-collapse border-2 border-amber-800">
               <thead>
                 <tr className="bg-amber-100">
-                  <th className="border-2 border-amber-800 px-4 py-3 text-amber-900 font-bold text-lg">
+                  <th className="border-2 border-amber-800 px-2 sm:px-4 py-2 sm:py-3 text-amber-900 font-bold text-sm sm:text-lg">
                     Розмір
                   </th>
-                  <th className="border-2 border-amber-800 px-4 py-3 text-amber-900 font-bold text-lg">
+                  <th className="border-2 border-amber-800 px-2 sm:px-4 py-2 sm:py-3 text-amber-900 font-bold text-sm sm:text-lg">
                     Об.гр
                   </th>
-                  <th className="border-2 border-amber-800 px-4 py-3 text-amber-900 font-bold text-lg">
+                  <th className="border-2 border-amber-800 px-2 sm:px-4 py-2 sm:py-3 text-amber-900 font-bold text-sm sm:text-lg">
                     Плечі
                   </th>
-                  <th className="border-2 border-amber-800 px-4 py-3 text-amber-900 font-bold text-lg">
+                  <th className="border-2 border-amber-800 px-2 sm:px-4 py-2 sm:py-3 text-amber-900 font-bold text-sm sm:text-lg">
                     Довж. по спині
                   </th>
-                  <th className="border-2 border-amber-800 px-4 py-3 text-amber-900 font-bold text-lg">
+                  <th className="border-2 border-amber-800 px-2 sm:px-4 py-2 sm:py-3 text-amber-900 font-bold text-sm sm:text-lg">
                     Довж. рукава
                   </th>
                 </tr>
@@ -68,19 +68,19 @@ const SizeChart: React.FC<SizeChartProps> = ({ isOpen, onClose, onSelectSize }) 
                       onClose();
                     }}
                   >
-                    <td className="border-2 border-amber-800 px-4 py-3 text-center text-amber-900 font-bold text-xl">
+                    <td className="border-2 border-amber-800 px-2 sm:px-4 py-2 sm:py-3 text-center text-amber-900 font-bold text-lg sm:text-xl">
                       {row.size}
                     </td>
-                    <td className="border-2 border-amber-800 px-4 py-3 text-center text-amber-900 text-lg">
+                    <td className="border-2 border-amber-800 px-2 sm:px-4 py-2 sm:py-3 text-center text-amber-900 text-base sm:text-lg">
                       {row.obGr}
                     </td>
-                    <td className="border-2 border-amber-800 px-4 py-3 text-center text-amber-900 text-lg">
+                    <td className="border-2 border-amber-800 px-2 sm:px-4 py-2 sm:py-3 text-center text-amber-900 text-base sm:text-lg">
                       {row.plechi}
                     </td>
-                    <td className="border-2 border-amber-800 px-4 py-3 text-center text-amber-900 text-lg">
+                    <td className="border-2 border-amber-800 px-2 sm:px-4 py-2 sm:py-3 text-center text-amber-900 text-base sm:text-lg">
                       {row.dovzhPoSpini}
                     </td>
-                    <td className="border-2 border-amber-800 px-4 py-3 text-center text-amber-900 text-lg">
+                    <td className="border-2 border-amber-800 px-2 sm:px-4 py-2 sm:py-3 text-center text-amber-900 text-base sm:text-lg">
                       {row.dovzhRukava}
                     </td>
                   </tr>
@@ -89,8 +89,8 @@ const SizeChart: React.FC<SizeChartProps> = ({ isOpen, onClose, onSelectSize }) 
             </table>
           </div>
 
-          <div className="mt-6 bg-amber-50 rounded-lg p-4">
-            <p className="text-sm text-amber-900">
+          <div className="mt-4 sm:mt-6 bg-amber-50 rounded-lg p-3 sm:p-4">
+            <p className="text-xs sm:text-sm text-amber-900">
               <strong>Підказка:</strong> Натисніть на будь-який розмір у таблиці, щоб обрати його
             </p>
           </div>
