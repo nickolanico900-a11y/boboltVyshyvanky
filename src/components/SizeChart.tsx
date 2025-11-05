@@ -37,7 +37,6 @@ const SizeChart: React.FC<SizeChartProps> = ({ isOpen, onClose, onSelectSize }) 
         </div>
 
         <div className="p-4 sm:p-6 overflow-x-auto">
-          <div className="min-w-[500px]">
             <table className="w-full border-collapse border-2 border-amber-800">
               <thead>
                 <tr className="bg-amber-100">
@@ -50,11 +49,13 @@ const SizeChart: React.FC<SizeChartProps> = ({ isOpen, onClose, onSelectSize }) 
                   <th className="border-2 border-amber-800 px-2 sm:px-4 py-2 sm:py-3 text-amber-900 font-bold text-sm sm:text-lg">
                     Плечі
                   </th>
-                  <th className="border-2 border-amber-800 px-2 sm:px-4 py-2 sm:py-3 text-amber-900 font-bold text-sm sm:text-lg">
-                    Довж. по спині
+                  <th className="border-2 border-amber-800 px-1 sm:px-4 py-2 sm:py-3 text-amber-900 font-bold text-xs sm:text-lg">
+                    <span className="block sm:hidden leading-tight">Довж.<br/>по<br/>спині</span>
+                    <span className="hidden sm:block">Довж. по спині</span>
                   </th>
-                  <th className="border-2 border-amber-800 px-2 sm:px-4 py-2 sm:py-3 text-amber-900 font-bold text-sm sm:text-lg">
-                    Довж. рукава
+                  <th className="border-2 border-amber-800 px-1 sm:px-4 py-2 sm:py-3 text-amber-900 font-bold text-xs sm:text-lg">
+                    <span className="block sm:hidden leading-tight">Довж.<br/>рукава</span>
+                    <span className="hidden sm:block">Довж. рукава</span>
                   </th>
                 </tr>
               </thead>
@@ -87,7 +88,6 @@ const SizeChart: React.FC<SizeChartProps> = ({ isOpen, onClose, onSelectSize }) 
                 ))}
               </tbody>
             </table>
-          </div>
 
           <div className="mt-4 sm:mt-6 bg-amber-50 rounded-lg p-3 sm:p-4">
             <p className="text-xs sm:text-sm text-amber-900">
