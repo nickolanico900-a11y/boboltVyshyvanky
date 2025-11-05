@@ -256,10 +256,6 @@ function App() {
                 <Mail className="w-4 h-4" />
                 <span className="hidden lg:inline text-sm">vishivanochka.zp@gmail.com</span>
               </a>
-              <div className="hidden xl:flex items-center gap-2">
-                <MapPin className="w-4 h-4" />
-                <span className="text-sm">Запоріжжя</span>
-              </div>
             </div>
           </div>
         </div>
