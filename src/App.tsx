@@ -222,6 +222,49 @@ function App() {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-amber-50 to-amber-100">
+      {/* Header */}
+      <header className="fixed top-0 left-0 right-0 z-50 bg-amber-900 bg-opacity-85 backdrop-blur-sm shadow-lg">
+        <div className="max-w-7xl mx-auto px-4 py-3">
+          <div className="flex items-center justify-between">
+            {/* Logo */}
+            <div className="flex items-center gap-3">
+              <img
+                src="https://i.ibb.co/FbH9M2F9/image.png"
+                alt="Логотип"
+                className="h-10 drop-shadow-lg"
+              />
+              <span className="text-white font-bold text-lg hidden sm:block" style={{ fontFamily: 'Oswald, sans-serif' }}>
+                Вишиванка Вишиваночка
+              </span>
+            </div>
+
+            {/* Contact Info */}
+            <div className="flex items-center gap-4 text-amber-100">
+              <a
+                href="tel:+380508608887"
+                className="flex items-center gap-2 hover:text-white transition-colors"
+                title="Зателефонувати"
+              >
+                <Phone className="w-4 h-4" />
+                <span className="hidden md:inline text-sm">+38 050 860 88 87</span>
+              </a>
+              <a
+                href="mailto:vishivanochka.zp@gmail.com"
+                className="flex items-center gap-2 hover:text-white transition-colors"
+                title="Написати email"
+              >
+                <Mail className="w-4 h-4" />
+                <span className="hidden lg:inline text-sm">vishivanochka.zp@gmail.com</span>
+              </a>
+              <div className="hidden xl:flex items-center gap-2">
+                <MapPin className="w-4 h-4" />
+                <span className="text-sm">Запоріжжя</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
       {/* Shopping Cart */}
       <ShoppingCart
         items={cartItems}
