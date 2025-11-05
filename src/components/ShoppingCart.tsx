@@ -50,7 +50,7 @@ const ShoppingCartComponent: React.FC<ShoppingCartProps> = ({
       </button>
 
       {/* Cart Sidebar */}
-      <div className={`fixed top-0 right-0 h-full w-96 bg-white shadow-2xl z-40 transform transition-transform duration-300 ${
+      <div className={`fixed top-0 right-0 h-full w-96 bg-white shadow-2xl z-[60] transform transition-transform duration-300 ${
         isOpen ? 'translate-x-0' : 'translate-x-full'
       }`}>
         <div className="flex flex-col h-full">
