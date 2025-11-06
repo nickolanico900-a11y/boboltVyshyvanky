@@ -386,7 +386,7 @@ function App() {
       sizes: ['S', 'M', 'L', 'XL', '2XL', '3XL', '4XL', '5XL'],
       fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
       color: 'Блакитний',
-      sleeveLength: 'Короткий',
+      sleeveLength: 'Довгий',
       price: 1300,
       image: 'https://i.ibb.co/LzcFwC1J/untitled-0-2.png'
     },
