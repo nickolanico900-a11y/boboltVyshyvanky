@@ -117,22 +117,6 @@ function App() {
       ]
     },
     {
-      id: 17,
-      name: 'Чоловіча вишиванка. Козацька 2',
-      sizes: ['S', 'M', 'L', 'XL', '2XL', '3XL', '4XL', '5XL'],
-      fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
-      color: 'Насичений блакитний',
-      sleeveLength: 'Універсал',
-      price: 1300,
-      image: 'https://i.ibb.co/wFZ8XWSt/getman1.png',
-      images: [
-'https://i.ibb.co/d4Vz3b3B/cossacks34.png',
-'https://i.ibb.co/TMBkbZc1/cossacks31.png',
-'https://i.ibb.co/HDYxTY4f/cossacks32.png',
-'https://i.ibb.co/VpN3HWGQ/cossacks33.png'
-      ]
-    },
-    {
       id: 18,
       name: 'Чоловіча вишиванка. Козацька 3',
       sizes: ['S', 'M', 'L', 'XL', '2XL', '3XL', '4XL', '5XL'],
@@ -317,26 +301,6 @@ function App() {
       ]
     },
     {
-      id: 1,
-      name: 'Чоловіча вишиванка ручної вишивки. Пасека 1',
-      sizes: ['S', 'M', 'L', 'XL', '2XL', '3XL', '4XL', '5XL'],
-      fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
-      color: 'Білий з червоним',
-      sleeveLength: 'Довгий',
-      price: 1200,
-      image: 'https://i.ibb.co/ksK6qcFm/untitled-0-10.png'
-    },
-    {
-      id: 2,
-      name: 'Чоловіча вишиванка ручної вишивки. Святкова 1',
-      sizes: ['S', 'M', 'L', 'XL', '2XL', '3XL', '4XL', '5XL'],
-      fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
-      color: 'Білий',
-      sleeveLength: 'Довгий',
-      price: 1200,
-      image: 'https://i.ibb.co/KcxGWG9y/untitled-0-9.png'
-    },
-    {
       id: 3,
       name: 'Чоловіча вишиванка ручної вишивки. Блакитна нитка',
       sizes: ['S', 'M', 'L', 'XL', '2XL', '3XL', '4XL', '5XL'],
@@ -355,6 +319,26 @@ function App() {
       sleeveLength: 'Короткий',
       price: 1200,
       image: 'https://i.ibb.co/1G17q12R/untitled-0-6.png'
+    },
+    {
+      id: 1,
+      name: 'Чоловіча вишиванка ручної вишивки. Пасека 1',
+      sizes: ['S', 'M', 'L', 'XL', '2XL', '3XL', '4XL', '5XL'],
+      fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
+      color: 'Білий з червоним',
+      sleeveLength: 'Довгий',
+      price: 1200,
+      image: 'https://i.ibb.co/ksK6qcFm/untitled-0-10.png'
+    },
+    {
+      id: 2,
+      name: 'Чоловіча вишиванка ручної вишивки. Святкова 1',
+      sizes: ['S', 'M', 'L', 'XL', '2XL', '3XL', '4XL', '5XL'],
+      fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
+      color: 'Білий',
+      sleeveLength: 'Довгий',
+      price: 1200,
+      image: 'https://i.ibb.co/KcxGWG9y/untitled-0-9.png'
     },
     {
       id: 5,
