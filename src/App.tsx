@@ -375,6 +375,54 @@ function App() {
       price: 1300,
       image: 'https://i.ibb.co/wFZ8XWSt/getman1.png',
       images: [
+'https://i.ibb.co/tw6LxK52/otaman44.png',
+'https://i.ibb.co/Kcbr9mzC/otaman41.png',
+'https://i.ibb.co/Q76Twwzk/otaman42.png',
+'https://i.ibb.co/0Rhz7tWF/otaman43.png'
+      ]
+    },
+    {
+      id: 19,
+      name: 'Чоловіча вишиванка ручної вишивки. Отаман 4',
+      sizes: ['S', 'M', 'L', 'XL', 'XXL', 'XXXL', 'XXXXL'],
+      fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
+      color: '111111',
+      sleeveLength: 'Довгий',
+      price: 1300,
+      image: 'https://i.ibb.co/wFZ8XWSt/getman1.png',
+      images: [
+        'https://i.ibb.co/wFZ8XWSt/getman1.png',
+        'https://i.ibb.co/Z6QVmrg9/getman2.png',
+        'https://i.ibb.co/v6Sgwbgx/getman3.png',
+        'https://i.ibb.co/HfBYy3f5/getman4.png'
+      ]
+    },
+    {
+      id: 19,
+      name: 'Чоловіча вишиванка ручної вишивки. Отаман 4',
+      sizes: ['S', 'M', 'L', 'XL', 'XXL', 'XXXL', 'XXXXL'],
+      fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
+      color: '111111',
+      sleeveLength: 'Довгий',
+      price: 1300,
+      image: 'https://i.ibb.co/wFZ8XWSt/getman1.png',
+      images: [
+        'https://i.ibb.co/wFZ8XWSt/getman1.png',
+        'https://i.ibb.co/Z6QVmrg9/getman2.png',
+        'https://i.ibb.co/v6Sgwbgx/getman3.png',
+        'https://i.ibb.co/HfBYy3f5/getman4.png'
+      ]
+    },
+    {
+      id: 19,
+      name: 'Чоловіча вишиванка ручної вишивки. Отаман 4',
+      sizes: ['S', 'M', 'L', 'XL', 'XXL', 'XXXL', 'XXXXL'],
+      fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
+      color: '111111',
+      sleeveLength: 'Довгий',
+      price: 1300,
+      image: 'https://i.ibb.co/wFZ8XWSt/getman1.png',
+      images: [
         'https://i.ibb.co/wFZ8XWSt/getman1.png',
         'https://i.ibb.co/Z6QVmrg9/getman2.png',
         'https://i.ibb.co/v6Sgwbgx/getman3.png',
