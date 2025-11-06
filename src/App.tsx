@@ -290,7 +290,7 @@ function App() {
       name: 'Чоловіча вишиванка. Степова 2ч',
       sizes: ['S', 'M', 'L', 'XL', '2XL', '3XL', '4XL', '5XL'],
       fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
-      color: 'Білий з червоним',
+      color: 'Бежевий з червоним',
       sleeveLength: 'Універсал',
       price: 1400,
       image: 'https://i.ibb.co/wFZ8XWSt/getman1.png',
