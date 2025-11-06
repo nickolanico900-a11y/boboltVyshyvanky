@@ -292,7 +292,7 @@ function App() {
       name: 'Чоловіча вишиванка. Степова 2с',
       sizes: ['S', 'M', 'L', 'XL', '2XL', '3XL', '4XL', '5XL'],
       fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
-      color: 'Білий з голубим',
+      color: 'Білий з синім',
       sleeveLength: 'Універсал',
       price: 1300,
       image: 'https://i.ibb.co/wFZ8XWSt/getman1.png',
@@ -341,7 +341,7 @@ function App() {
       name: 'Чоловіча вишиванка ручної вишивки. Блакитна нитка',
       sizes: ['S', 'M', 'L', 'XL', '2XL', '3XL', '4XL', '5XL'],
       fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
-      color: 'Білий з блакитним',
+      color: 'Білий з синім',
       sleeveLength: 'Довгий',
       price: 1200,
       image: 'https://i.ibb.co/Z1MPkBYv/untitled-0-8.png'
