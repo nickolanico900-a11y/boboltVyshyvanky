@@ -203,9 +203,9 @@ function App() {
       price: 1300,
       image: 'https://i.ibb.co/wFZ8XWSt/getman1.png',
       images: [
-'https://i.ibb.co/mCzN2y6K/getman44.png'
-'https://i.ibb.co/zT62DtGQ/getman41.png'
-'https://i.ibb.co/WWvMBbNT/getman42.png'
+'https://i.ibb.co/mCzN2y6K/getman44.png',
+'https://i.ibb.co/zT62DtGQ/getman41.png',
+'https://i.ibb.co/WWvMBbNT/getman42.png',
 'https://i.ibb.co/zhwzFC6S/getman43.png'
       ]
     },
@@ -219,15 +219,15 @@ function App() {
       price: 1200,
       image: 'https://i.ibb.co/wFZ8XWSt/getman1.png',
       images: [
-        'https://i.ibb.co/wFZ8XWSt/getman1.png',
-        'https://i.ibb.co/Z6QVmrg9/getman2.png',
-        'https://i.ibb.co/v6Sgwbgx/getman3.png',
-        'https://i.ibb.co/HfBYy3f5/getman4.png'
+'https://i.ibb.co/Hfz5N8sb/cossacks4.png',
+'https://i.ibb.co/qM4bGRbg/cossacks1.png',
+'https://i.ibb.co/NgQHxGZd/cossacks2.png',
+'https://i.ibb.co/zTt7S6gb/cossacks3.png'
       ]
     },
     {
       id: 12,
-      name: 'Чоловіча вишиванка ручної вишивки. Гетьман 1',
+      name: 'Чоловіча вишиванка ручної вишивки. Козацька 2',
       sizes: ['S', 'M', 'L', 'XL', 'XXL', 'XXXL', 'XXXXL'],
       fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
       color: '111111',
@@ -235,10 +235,10 @@ function App() {
       price: 1300,
       image: 'https://i.ibb.co/wFZ8XWSt/getman1.png',
       images: [
-        'https://i.ibb.co/wFZ8XWSt/getman1.png',
-        'https://i.ibb.co/Z6QVmrg9/getman2.png',
-        'https://i.ibb.co/v6Sgwbgx/getman3.png',
-        'https://i.ibb.co/HfBYy3f5/getman4.png'
+'https://i.ibb.co/d4Vz3b3B/cossacks34.png',
+'https://i.ibb.co/TMBkbZc1/cossacks31.png',
+'https://i.ibb.co/HDYxTY4f/cossacks32.png',
+'https://i.ibb.co/VpN3HWGQ/cossacks33.png'
       ]
     },
     {
