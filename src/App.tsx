@@ -43,7 +43,7 @@ function App() {
       fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
       color: 'Темно-синій',
       sleeveLength: 'Універсал',
-      price: 1300,
+      price: 1400,
       image: 'https://i.ibb.co/wFZ8XWSt/getman1.png',
       images: [
   'https://i.ibb.co/wFZ8XWSt/getman1.png',
@@ -59,7 +59,7 @@ function App() {
       fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
       color: 'Темно-синій',
       sleeveLength: 'Універсал',
-      price: 1300,
+      price: 1400,
       image: 'https://i.ibb.co/wFZ8XWSt/getman1.png',
       images: [
   'https://i.ibb.co/2YWVKm92/getman21.png',
@@ -75,7 +75,7 @@ function App() {
       fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
       color: 'Темно-синій',
       sleeveLength: 'Універсал',
-      price: 1300,
+      price: 1400,
       image: 'https://i.ibb.co/wFZ8XWSt/getman1.png',
       images: [
 'https://i.ibb.co/vxMxkDRB/getman33.png',
@@ -91,7 +91,7 @@ function App() {
       fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
       color: 'Темно-синій',
       sleeveLength: 'Універсал',
-      price: 1300,
+      price: 1400,
       image: 'https://i.ibb.co/wFZ8XWSt/getman1.png',
       images: [
 'https://i.ibb.co/WWvMBbNT/getman42.png',
@@ -107,7 +107,7 @@ function App() {
       fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
       color: 'Насичений блакитний',
       sleeveLength: 'Універсал',
-      price: 1200,
+      price: 1400,
       image: 'https://i.ibb.co/wFZ8XWSt/getman1.png',
       images: [
 'https://i.ibb.co/Hfz5N8sb/cossacks4.png',
@@ -123,7 +123,7 @@ function App() {
       fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
       color: 'Насичений блакитний',
       sleeveLength: 'Універсал',
-      price: 1200,
+      price: 1400,
       image: 'https://i.ibb.co/wFZ8XWSt/getman1.png',
       images: [
 'https://i.ibb.co/d4Vz3b3B/cossacks34.png',
@@ -139,7 +139,7 @@ function App() {
       fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
       color: 'Насичений блакитний',
       sleeveLength: 'Універсал',
-      price: 1300,
+      price: 1400,
       image: 'https://i.ibb.co/wFZ8XWSt/getman1.png',
       images: [
 'https://i.ibb.co/C3q62fgP/cossacks42.png',
@@ -155,7 +155,7 @@ function App() {
       fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
       color: 'Білий з чорним',
       sleeveLength: 'Універсал',
-      price: 1300,
+      price: 1400,
       image: 'https://i.ibb.co/wFZ8XWSt/getman1.png',
       images: [
 'https://i.ibb.co/209qHk4k/otaman3.png',
@@ -170,7 +170,7 @@ function App() {
       fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
       color: 'Білий з синім',
       sleeveLength: 'Універсал',
-      price: 1300,
+      price: 1400,
       image: 'https://i.ibb.co/wFZ8XWSt/getman1.png',
       images: [
 'https://i.ibb.co/rf5NCJLj/otaman1s.png',
@@ -186,7 +186,7 @@ function App() {
       fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
       color: 'Білий з червоним',
       sleeveLength: 'Універсал',
-      price: 1300,
+      price: 1400,
       image: 'https://i.ibb.co/wFZ8XWSt/getman1.png',
       images: [
 'https://i.ibb.co/MDdcpkr3/otaman1ch.png',
@@ -201,7 +201,7 @@ function App() {
       fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
       color: 'Білий з синім',
       sleeveLength: 'Універсал',
-      price: 1300,
+      price: 1400,
       image: 'https://i.ibb.co/wFZ8XWSt/getman1.png',
       images: [
 'https://i.ibb.co/RTt3Bv36/otaman22s.png',
@@ -215,7 +215,7 @@ function App() {
       fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
       color: 'Білий з червоним',
       sleeveLength: 'Універсал',
-      price: 1300,
+      price: 1400,
       image: 'https://i.ibb.co/wFZ8XWSt/getman1.png',
       images: [
 'https://i.ibb.co/qvPLFch/otaman24ch.png',
@@ -231,7 +231,7 @@ function App() {
       fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
       color: 'Білий',
       sleeveLength: 'Універсал',
-      price: 1300,
+      price: 1400,
       image: 'https://i.ibb.co/wFZ8XWSt/getman1.png',
       images: [
 'https://i.ibb.co/DPw4Dk1s/otaman34.png',
@@ -247,7 +247,7 @@ function App() {
       fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
       color: 'Білий з золотим',
       sleeveLength: 'Універсал',
-      price: 1300,
+      price: 1400,
       image: 'https://i.ibb.co/wFZ8XWSt/getman1.png',
       images: [
 'https://i.ibb.co/tw6LxK52/otaman44.png',
@@ -263,7 +263,7 @@ function App() {
       fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
       color: 'Білий з синім',
       sleeveLength: 'Універсал',
-      price: 1300,
+      price: 1400,
       image: 'https://i.ibb.co/wFZ8XWSt/getman1.png',
       images: [
 'https://i.ibb.co/wFTDYZ88/stepova3.png',
@@ -278,7 +278,7 @@ function App() {
       fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
       color: 'Білий з синім',
       sleeveLength: 'Універсал',
-      price: 1300,
+      price: 1400,
       image: 'https://i.ibb.co/wFZ8XWSt/getman1.png',
       images: [
 'https://i.ibb.co/rGnBqcQj/stepova22s.png',
@@ -292,7 +292,7 @@ function App() {
       fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
       color: 'Білий з червоним',
       sleeveLength: 'Універсал',
-      price: 1300,
+      price: 1400,
       image: 'https://i.ibb.co/wFZ8XWSt/getman1.png',
       images: [
 'https://i.ibb.co/qYKxP4SF/stepova23ch.png',
@@ -307,7 +307,7 @@ function App() {
       fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
       color: 'Білий з синім',
       sleeveLength: 'Довгий',
-      price: 1200,
+      price: 1300,
       image: 'https://i.ibb.co/Z1MPkBYv/untitled-0-8.png'
     },
     {
@@ -317,7 +317,7 @@ function App() {
       fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
       color: 'Білий з червоним',
       sleeveLength: 'Короткий',
-      price: 1200,
+      price: 1300,
       image: 'https://i.ibb.co/1G17q12R/untitled-0-6.png'
     },
     {
@@ -327,7 +327,7 @@ function App() {
       fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
       color: 'Білий з червоним',
       sleeveLength: 'Довгий',
-      price: 1200,
+      price: 1300,
       image: 'https://i.ibb.co/ksK6qcFm/untitled-0-10.png'
     },
     {
@@ -337,7 +337,7 @@ function App() {
       fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
       color: 'Білий',
       sleeveLength: 'Довгий',
-      price: 1200,
+      price: 1300,
       image: 'https://i.ibb.co/KcxGWG9y/untitled-0-9.png'
     },
     {
@@ -347,7 +347,7 @@ function App() {
       fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
       color: 'Чорний з червоним',
       sleeveLength: 'Короткий',
-      price: 1200,
+      price: 1300,
       image: 'https://i.ibb.co/9kVwnsMg/untitled-0-7.png'
     },
     {
@@ -357,7 +357,7 @@ function App() {
       fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
       color: 'Білий з блакитним',
       sleeveLength: 'Довгий',
-      price: 1200,
+      price: 1300,
       image: 'https://i.ibb.co/KzcB5NQ5/untitled-0-5.png'
     },
     {
@@ -377,7 +377,7 @@ function App() {
       fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
       color: 'Білий',
       sleeveLength: 'Довгий',
-      price: 1200,
+      price: 1300,
       image: 'https://i.ibb.co/jPPJqDB8/untitled-0-3.png'
     },
     {
@@ -407,7 +407,7 @@ function App() {
       fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
       color: 'Чорний з червоним',
       sleeveLength: 'Довгий',
-      price: 1200,
+      price: 1300,
       image: 'https://i.ibb.co/PvD1JdXg/untitled-0.png'
     }
   ];
