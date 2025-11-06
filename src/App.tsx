@@ -160,6 +160,118 @@ function App() {
         'https://i.ibb.co/v6Sgwbgx/getman3.png',
         'https://i.ibb.co/HfBYy3f5/getman4.png'
       ]
+    },
+    {
+      id: 13,
+      name: 'Чоловіча вишиванка ручної вишивки. Гетьман 2',
+      sizes: ['S', 'M', 'L', 'XL', 'XXL', 'XXXL', 'XXXXL'],
+      fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
+      color: '111111',
+      sleeveLength: 'Довгий',
+      price: 1200,
+      image: 'https://i.ibb.co/wFZ8XWSt/getman1.png',
+      images: [
+        'https://i.ibb.co/2YWVKm92/getman21.png',
+        'https://i.ibb.co/1G3pz9mx/getman22.png',
+        'https://i.ibb.co/1HpCQc7/getman23.png',
+        'https://i.ibb.co/WvkP5bym/photo-2025-11-03-14-39-35-removebg-preview.png'
+      ]
+    },
+    {
+      id: 12,
+      name: 'Чоловіча вишиванка ручної вишивки. Гетьман 1',
+      sizes: ['S', 'M', 'L', 'XL', 'XXL', 'XXXL', 'XXXXL'],
+      fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
+      color: '111111',
+      sleeveLength: 'Довгий',
+      price: 1200,
+      image: 'https://i.ibb.co/wFZ8XWSt/getman1.png',
+      images: [
+        'https://i.ibb.co/wFZ8XWSt/getman1.png',
+        'https://i.ibb.co/Z6QVmrg9/getman2.png',
+        'https://i.ibb.co/v6Sgwbgx/getman3.png',
+        'https://i.ibb.co/HfBYy3f5/getman4.png'
+      ]
+    },
+    {
+      id: 12,
+      name: 'Чоловіча вишиванка ручної вишивки. Гетьман 1',
+      sizes: ['S', 'M', 'L', 'XL', 'XXL', 'XXXL', 'XXXXL'],
+      fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
+      color: '111111',
+      sleeveLength: 'Довгий',
+      price: 1200,
+      image: 'https://i.ibb.co/wFZ8XWSt/getman1.png',
+      images: [
+        'https://i.ibb.co/wFZ8XWSt/getman1.png',
+        'https://i.ibb.co/Z6QVmrg9/getman2.png',
+        'https://i.ibb.co/v6Sgwbgx/getman3.png',
+        'https://i.ibb.co/HfBYy3f5/getman4.png'
+      ]
+    },
+    {
+      id: 12,
+      name: 'Чоловіча вишиванка ручної вишивки. Гетьман 1',
+      sizes: ['S', 'M', 'L', 'XL', 'XXL', 'XXXL', 'XXXXL'],
+      fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
+      color: '111111',
+      sleeveLength: 'Довгий',
+      price: 1200,
+      image: 'https://i.ibb.co/wFZ8XWSt/getman1.png',
+      images: [
+        'https://i.ibb.co/wFZ8XWSt/getman1.png',
+        'https://i.ibb.co/Z6QVmrg9/getman2.png',
+        'https://i.ibb.co/v6Sgwbgx/getman3.png',
+        'https://i.ibb.co/HfBYy3f5/getman4.png'
+      ]
+    },
+    {
+      id: 12,
+      name: 'Чоловіча вишиванка ручної вишивки. Гетьман 1',
+      sizes: ['S', 'M', 'L', 'XL', 'XXL', 'XXXL', 'XXXXL'],
+      fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
+      color: '111111',
+      sleeveLength: 'Довгий',
+      price: 1200,
+      image: 'https://i.ibb.co/wFZ8XWSt/getman1.png',
+      images: [
+        'https://i.ibb.co/wFZ8XWSt/getman1.png',
+        'https://i.ibb.co/Z6QVmrg9/getman2.png',
+        'https://i.ibb.co/v6Sgwbgx/getman3.png',
+        'https://i.ibb.co/HfBYy3f5/getman4.png'
+      ]
+    },
+    {
+      id: 12,
+      name: 'Чоловіча вишиванка ручної вишивки. Гетьман 1',
+      sizes: ['S', 'M', 'L', 'XL', 'XXL', 'XXXL', 'XXXXL'],
+      fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
+      color: '111111',
+      sleeveLength: 'Довгий',
+      price: 1200,
+      image: 'https://i.ibb.co/wFZ8XWSt/getman1.png',
+      images: [
+        'https://i.ibb.co/wFZ8XWSt/getman1.png',
+        'https://i.ibb.co/Z6QVmrg9/getman2.png',
+        'https://i.ibb.co/v6Sgwbgx/getman3.png',
+        'https://i.ibb.co/HfBYy3f5/getman4.png'
+      ]
+    },
+    {
+      id: 12,
+      name: 'Чоловіча вишиванка ручної вишивки. Гетьман 1',
+      sizes: ['S', 'M', 'L', 'XL', 'XXL', 'XXXL', 'XXXXL'],
+      fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
+      color: '111111',
+      sleeveLength: 'Довгий',
+      price: 1200,
+      image: 'https://i.ibb.co/wFZ8XWSt/getman1.png',
+      images: [
+        'https://i.ibb.co/wFZ8XWSt/getman1.png',
+        'https://i.ibb.co/Z6QVmrg9/getman2.png',
+        'https://i.ibb.co/v6Sgwbgx/getman3.png',
+        'https://i.ibb.co/HfBYy3f5/getman4.png'
+      ]
     }
   ];
 
