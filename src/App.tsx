@@ -88,7 +88,7 @@ function App() {
     {
       id: 6,
       name: 'Чоловіча вишиванка ручної вишивки. Блакитна нитка 1',
-      sizes: ['S', 'M', 'L', 'XL', 'XXL', 'XXXL', 'XXXXL'],
+      sizes: ['S', 'M', 'L', 'XL', '2XL', '3XL', '4XL', '5XL'],
       fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
       color: 'Білий з блакитним',
       sleeveLength: 'Довгий',
@@ -98,7 +98,7 @@ function App() {
     {
       id: 7,
       name: 'Чоловіча вишиванка ручної вишивки. Хакі',
-      sizes: ['S', 'M', 'L', 'XL', 'XXL', 'XXXL', 'XXXXL'],
+      sizes: ['S', 'M', 'L', 'XL', '2XL', '3XL', '4XL', '5XL'],
       fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
       color: 'Хакі',
       sleeveLength: 'Короткий',
@@ -108,7 +108,7 @@ function App() {
     {
       id: 8,
       name: 'Чоловіча вишиванка ручної вишивки. Святкова',
-      sizes: ['S', 'M', 'L', 'XL', 'XXL', 'XXXL', 'XXXXL'],
+      sizes: ['S', 'M', 'L', 'XL', '2XL', '3XL', '4XL', '5XL'],
       fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
       color: 'Білий',
       sleeveLength: 'Довгий',
@@ -118,7 +118,7 @@ function App() {
     {
       id: 9,
       name: 'Чоловіча вишиванка ручної вишивки. Небо 1',
-      sizes: ['S', 'M', 'L', 'XL', 'XXL', 'XXXL', 'XXXXL'],
+      sizes: ['S', 'M', 'L', 'XL', '2XL', '3XL', '4XL', '5XL'],
       fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
       color: 'Блакитний',
       sleeveLength: 'Короткий',
@@ -128,7 +128,7 @@ function App() {
     {
       id: 10,
       name: 'Чоловіча вишиванка ручної вишивки. Небо',
-      sizes: ['S', 'M', 'L', 'XL', 'XXL', 'XXXL', 'XXXXL'],
+      sizes: ['S', 'M', 'L', 'XL', '2XL', '3XL', '4XL', '5XL'],
       fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
       color: 'Блакитний',
       sleeveLength: 'Довгий',
