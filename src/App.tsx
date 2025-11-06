@@ -78,8 +78,8 @@ function App() {
       price: 1300,
       image: 'https://i.ibb.co/wFZ8XWSt/getman1.png',
       images: [
-'https://i.ibb.co/7JZgpqf5/getman32.png',
 'https://i.ibb.co/vxMxkDRB/getman33.png',
+'https://i.ibb.co/7JZgpqf5/getman32.png',
 'https://i.ibb.co/TqTGnqHN/getman34.png',
 'https://i.ibb.co/BH5Jtkys/getman31.png'
       ]
