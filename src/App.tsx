@@ -180,7 +180,7 @@ function App() {
     {
       id: 14,
       name: 'Чоловіча вишиванка ручної вишивки. Гетьман 3',
-      sizes: ['S', 'M', 'L', 'XL', 'XXL', 'XXXL', 'XXXXL'],
+      sizes: ['S', 'M', 'L', 'XL', '2XL', '3XL', '4XL', '5XL'],
       fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
       color: '111111',
       sleeveLength: 'Довгий',
