@@ -563,7 +563,7 @@ function App() {
       <section 
         className="relative min-h-screen flex items-center justify-center bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: 'url(https://i.ibb.co/cXcKH2c7/236532463.png)'
+          backgroundImage: 'url(https://i.ibb.co/N2pz8NxH/0-02-05-9b5925fb04cbca04e912f6d11da54029f1af628a281e0d6a2a79c644bc2d51af-4f412d50e2aaeb05.jpg)'
         }}
       >
         {/* Overlay */}
