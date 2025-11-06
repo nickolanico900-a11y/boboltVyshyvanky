@@ -231,7 +231,7 @@ function App() {
       sizes: ['S', 'M', 'L', 'XL', '2XL', '3XL', '4XL', '5XL'],
       fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
       color: '111111',
-      sleeveLength: 'Довгий',
+      sleeveLength: 'Універсал',
       price: 1300,
       image: 'https://i.ibb.co/wFZ8XWSt/getman1.png',
       images: [
@@ -247,7 +247,7 @@ function App() {
       sizes: ['S', 'M', 'L', 'XL', '2XL', '3XL', '4XL', '5XL'],
       fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
       color: '111111',
-      sleeveLength: 'Довгий',
+      sleeveLength: 'Універсал',
       price: 1200,
       image: 'https://i.ibb.co/wFZ8XWSt/getman1.png',
       images: [
@@ -263,7 +263,7 @@ function App() {
       sizes: ['S', 'M', 'L', 'XL', '2XL', '3XL', '4XL', '5XL'],
       fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
       color: '111111',
-      sleeveLength: 'Довгий',
+      sleeveLength: 'Універсал',
       price: 1300,
       image: 'https://i.ibb.co/wFZ8XWSt/getman1.png',
       images: [
@@ -279,7 +279,7 @@ function App() {
       sizes: ['S', 'M', 'L', 'XL', '2XL', '3XL', '4XL', '5XL'],
       fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
       color: '111111',
-      sleeveLength: 'Довгий',
+      sleeveLength: 'Універсал',
       price: 1300,
       image: 'https://i.ibb.co/wFZ8XWSt/getman1.png',
       images: [
@@ -294,7 +294,7 @@ function App() {
       sizes: ['S', 'M', 'L', 'XL', '2XL', '3XL', '4XL', '5XL'],
       fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
       color: '111111',
-      sleeveLength: 'Довгий',
+      sleeveLength: 'Універсал',
       price: 1300,
       image: 'https://i.ibb.co/wFZ8XWSt/getman1.png',
       images: [
@@ -310,7 +310,7 @@ function App() {
       sizes: ['S', 'M', 'L', 'XL', '2XL', '3XL', '4XL', '5XL'],
       fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
       color: '111111',
-      sleeveLength: 'Довгий',
+      sleeveLength: 'Універсал',
       price: 1300,
       image: 'https://i.ibb.co/wFZ8XWSt/getman1.png',
       images: [
@@ -325,7 +325,7 @@ function App() {
       sizes: ['S', 'M', 'L', 'XL', '2XL', '3XL', '4XL', '5XL'],
       fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
       color: '111111',
-      sleeveLength: 'Довгий',
+      sleeveLength: 'Універсал',
       price: 1300,
       image: 'https://i.ibb.co/wFZ8XWSt/getman1.png',
       images: [
@@ -339,7 +339,7 @@ function App() {
       sizes: ['S', 'M', 'L', 'XL', '2XL', '3XL', '4XL', '5XL'],
       fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
       color: '111111',
-      sleeveLength: 'Довгий',
+      sleeveLength: 'Універсал',
       price: 1300,
       image: 'https://i.ibb.co/wFZ8XWSt/getman1.png',
       images: [
@@ -355,7 +355,7 @@ function App() {
       sizes: ['S', 'M', 'L', 'XL', '2XL', '3XL', '4XL', '5XL'],
       fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
       color: '111111',
-      sleeveLength: 'Довгий',
+      sleeveLength: 'Універсал',
       price: 1300,
       image: 'https://i.ibb.co/wFZ8XWSt/getman1.png',
       images: [
@@ -371,7 +371,7 @@ function App() {
       sizes: ['S', 'M', 'L', 'XL', '2XL', '3XL', '4XL', '5XL'],
       fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
       color: '111111',
-      sleeveLength: 'Довгий',
+      sleeveLength: 'Універсал',
       price: 1300,
       image: 'https://i.ibb.co/wFZ8XWSt/getman1.png',
       images: [
@@ -387,7 +387,7 @@ function App() {
       sizes: ['S', 'M', 'L', 'XL', '2XL', '3XL', '4XL', '5XL'],
       fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
       color: '111111',
-      sleeveLength: 'Довгий',
+      sleeveLength: 'Універсал',
       price: 1300,
       image: 'https://i.ibb.co/wFZ8XWSt/getman1.png',
       images: [
@@ -402,7 +402,7 @@ function App() {
       sizes: ['S', 'M', 'L', 'XL', '2XL', '3XL', '4XL', '5XL'],
       fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
       color: '111111',
-      sleeveLength: 'Довгий',
+      sleeveLength: 'Універсал',
       price: 1300,
       image: 'https://i.ibb.co/wFZ8XWSt/getman1.png',
       images: [
@@ -416,7 +416,7 @@ function App() {
       sizes: ['S', 'M', 'L', 'XL', '2XL', '3XL', '4XL', '5XL'],
       fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
       color: '111111',
-      sleeveLength: 'Довгий',
+      sleeveLength: 'Універсал',
       price: 1300,
       image: 'https://i.ibb.co/wFZ8XWSt/getman1.png',
       images: [
