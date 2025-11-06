@@ -267,9 +267,9 @@ function App() {
       price: 1300,
       image: 'https://i.ibb.co/wFZ8XWSt/getman1.png',
       images: [
-'https://i.ibb.co/C3q62fgP/cossacks42.png'
-'https://i.ibb.co/nq6jFYLC/cossacks43.png'
-'https://i.ibb.co/mCM2zcFM/cossacks44.png'
+'https://i.ibb.co/C3q62fgP/cossacks42.png',
+'https://i.ibb.co/nq6jFYLC/cossacks43.png',
+'https://i.ibb.co/mCM2zcFM/cossacks44.png',
 'https://i.ibb.co/99d0W5fF/cossacks41.png'
       ]
     },
