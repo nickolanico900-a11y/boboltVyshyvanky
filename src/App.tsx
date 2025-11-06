@@ -359,10 +359,10 @@ function App() {
       price: 1300,
       image: 'https://i.ibb.co/wFZ8XWSt/getman1.png',
       images: [
-        'https://i.ibb.co/wFZ8XWSt/getman1.png',
-        'https://i.ibb.co/Z6QVmrg9/getman2.png',
-        'https://i.ibb.co/v6Sgwbgx/getman3.png',
-        'https://i.ibb.co/HfBYy3f5/getman4.png'
+'https://i.ibb.co/DPw4Dk1s/otaman34.png',
+'https://i.ibb.co/fzm1G8Z4/otaman31.png',
+'https://i.ibb.co/Gf86P6Hk/otaman32.png',
+'https://i.ibb.co/Ld1fKbxQ/otaman33.png'
       ]
     },
     {
