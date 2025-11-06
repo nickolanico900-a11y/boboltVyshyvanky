@@ -196,7 +196,7 @@ function App() {
     {
       id: 15,
       name: 'Чоловіча вишиванка ручної вишивки. Гетьман 4',
-      sizes: ['S', 'M', 'L', 'XL', 'XXL', 'XXXL', 'XXXXL'],
+      sizes: ['S', 'M', 'L', 'XL', '2XL', '3XL', '4XL', '5XL'],
       fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
       color: '111111',
       sleeveLength: 'Довгий',
@@ -212,7 +212,7 @@ function App() {
     {
       id: 16,
       name: 'Чоловіча вишиванка ручної вишивки. Козацька 1',
-      sizes: ['S', 'M', 'L', 'XL', 'XXL', 'XXXL', 'XXXXL'],
+      sizes: ['S', 'M', 'L', 'XL', '2XL', '3XL', '4XL', '5XL'],
       fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
       color: '111111',
       sleeveLength: 'Довгий',
@@ -228,7 +228,7 @@ function App() {
     {
       id: 17,
       name: 'Чоловіча вишиванка ручної вишивки. Козацька 2',
-      sizes: ['S', 'M', 'L', 'XL', 'XXL', 'XXXL', 'XXXXL'],
+      sizes: ['S', 'M', 'L', 'XL', '2XL', '3XL', '4XL', '5XL'],
       fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
       color: '111111',
       sleeveLength: 'Довгий',
@@ -244,7 +244,7 @@ function App() {
     {
       id: 18,
       name: 'Чоловіча вишиванка ручної вишивки. Козацька 3',
-      sizes: ['S', 'M', 'L', 'XL', 'XXL', 'XXXL', 'XXXXL'],
+      sizes: ['S', 'M', 'L', 'XL', '2XL', '3XL', '4XL', '5XL'],
       fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
       color: '111111',
       sleeveLength: 'Довгий',
@@ -260,7 +260,7 @@ function App() {
     {
       id: 19,
       name: 'Чоловіча вишиванка ручної вишивки. Козацька 4',
-      sizes: ['S', 'M', 'L', 'XL', 'XXL', 'XXXL', 'XXXXL'],
+      sizes: ['S', 'M', 'L', 'XL', '2XL', '3XL', '4XL', '5XL'],
       fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
       color: '111111',
       sleeveLength: 'Довгий',
@@ -276,7 +276,7 @@ function App() {
     {
       id: 20,
       name: 'Чоловіча вишиванка ручної вишивки. Отаман 1',
-      sizes: ['S', 'M', 'L', 'XL', 'XXL', 'XXXL', 'XXXXL'],
+      sizes: ['S', 'M', 'L', 'XL', '2XL', '3XL', '4XL', '5XL'],
       fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
       color: '111111',
       sleeveLength: 'Довгий',
@@ -291,7 +291,7 @@ function App() {
     {
       id: 21,
       name: 'Чоловіча вишиванка ручної вишивки. Отаман 1с',
-      sizes: ['S', 'M', 'L', 'XL', 'XXL', 'XXXL', 'XXXXL'],
+      sizes: ['S', 'M', 'L', 'XL', '2XL', '3XL', '4XL', '5XL'],
       fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
       color: '111111',
       sleeveLength: 'Довгий',
@@ -307,7 +307,7 @@ function App() {
     {
       id: 22,
       name: 'Чоловіча вишиванка ручної вишивки. Отаман 1ч',
-      sizes: ['S', 'M', 'L', 'XL', 'XXL', 'XXXL', 'XXXXL'],
+      sizes: ['S', 'M', 'L', 'XL', '2XL', '3XL', '4XL', '5XL'],
       fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
       color: '111111',
       sleeveLength: 'Довгий',
@@ -322,7 +322,7 @@ function App() {
     {
       id: 23,
       name: 'Чоловіча вишиванка ручної вишивки. Отаман 2c',
-      sizes: ['S', 'M', 'L', 'XL', 'XXL', 'XXXL', 'XXXXL'],
+      sizes: ['S', 'M', 'L', 'XL', '2XL', '3XL', '4XL', '5XL'],
       fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
       color: '111111',
       sleeveLength: 'Довгий',
@@ -336,7 +336,7 @@ function App() {
     {
       id: 24,
       name: 'Чоловіча вишиванка ручної вишивки. Отаман 2ч',
-      sizes: ['S', 'M', 'L', 'XL', 'XXL', 'XXXL', 'XXXXL'],
+      sizes: ['S', 'M', 'L', 'XL', '2XL', '3XL', '4XL', '5XL'],
       fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
       color: '111111',
       sleeveLength: 'Довгий',
@@ -352,7 +352,7 @@ function App() {
     {
       id: 25,
       name: 'Чоловіча вишиванка ручної вишивки. Отаман 3',
-      sizes: ['S', 'M', 'L', 'XL', 'XXL', 'XXXL', 'XXXXL'],
+      sizes: ['S', 'M', 'L', 'XL', '2XL', '3XL', '4XL', '5XL'],
       fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
       color: '111111',
       sleeveLength: 'Довгий',
@@ -368,7 +368,7 @@ function App() {
     {
       id: 26,
       name: 'Чоловіча вишиванка ручної вишивки. Отаман 4',
-      sizes: ['S', 'M', 'L', 'XL', 'XXL', 'XXXL', 'XXXXL'],
+      sizes: ['S', 'M', 'L', 'XL', '2XL', '3XL', '4XL', '5XL'],
       fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
       color: '111111',
       sleeveLength: 'Довгий',
@@ -384,7 +384,7 @@ function App() {
     {
       id: 27,
       name: 'Чоловіча вишиванка ручної вишивки. Степова 1',
-      sizes: ['S', 'M', 'L', 'XL', 'XXL', 'XXXL', 'XXXXL'],
+      sizes: ['S', 'M', 'L', 'XL', '2XL', '3XL', '4XL', '5XL'],
       fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
       color: '111111',
       sleeveLength: 'Довгий',
@@ -399,7 +399,7 @@ function App() {
     {
       id: 28,
       name: 'Чоловіча вишиванка ручної вишивки. Степова 2с',
-      sizes: ['S', 'M', 'L', 'XL', 'XXL', 'XXXL', 'XXXXL'],
+      sizes: ['S', 'M', 'L', 'XL', '2XL', '3XL', '4XL', '5XL'],
       fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
       color: '111111',
       sleeveLength: 'Довгий',
@@ -413,7 +413,7 @@ function App() {
     {
       id: 29,
       name: 'Чоловіча вишиванка ручної вишивки. Степова 2ч',
-      sizes: ['S', 'M', 'L', 'XL', 'XXL', 'XXXL', 'XXXXL'],
+      sizes: ['S', 'M', 'L', 'XL', '2XL', '3XL', '4XL', '5XL'],
       fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
       color: '111111',
       sleeveLength: 'Довгий',
