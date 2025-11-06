@@ -35,116 +35,7 @@ function App() {
   const [toast, setToast] = useState({ message: '', type: 'success' as 'success' | 'error', isVisible: false });
 
   const products: Product[] = [
-    {
-      id: 1,
-      name: 'Чоловіча вишиванка ручної вишивки. Пасека 1',
-      sizes: ['S', 'M', 'L', 'XL', '2XL', '3XL', '4XL', '5XL'],
-      fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
-      color: 'Білий з червоним',
-      sleeveLength: 'Довгий',
-      price: 1200,
-      image: 'https://i.ibb.co/ksK6qcFm/untitled-0-10.png'
-    },
-    {
-      id: 2,
-      name: 'Чоловіча вишиванка ручної вишивки. Святкова 1',
-      sizes: ['S', 'M', 'L', 'XL', '2XL', '3XL', '4XL', '5XL'],
-      fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
-      color: 'Білий',
-      sleeveLength: 'Довгий',
-      price: 1200,
-      image: 'https://i.ibb.co/KcxGWG9y/untitled-0-9.png'
-    },
-    {
-      id: 3,
-      name: 'Чоловіча вишиванка ручної вишивки. Блакитна нитка',
-      sizes: ['S', 'M', 'L', 'XL', '2XL', '3XL', '4XL', '5XL'],
-      fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
-      color: 'Білий з блакитним',
-      sleeveLength: 'Довгий',
-      price: 1200,
-      image: 'https://i.ibb.co/Z1MPkBYv/untitled-0-8.png'
-    },
-    {
-      id: 4,
-      name: 'Чоловіча вишиванка ручної вишивки. Пасека',
-      sizes: ['S', 'M', 'L', 'XL', '2XL', '3XL', '4XL', '5XL'],
-      fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
-      color: 'Білий з червоним',
-      sleeveLength: 'Короткий',
-      price: 1200,
-      image: 'https://i.ibb.co/1G17q12R/untitled-0-6.png'
-    },
-    {
-      id: 5,
-      name: 'Чоловіча вишиванка ручної вишивки. Петро',
-      sizes: ['S', 'M', 'L', 'XL', '2XL', '3XL', '4XL', '5XL'],
-      fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
-      color: 'Чорний з червоним',
-      sleeveLength: 'Короткий',
-      price: 1200,
-      image: 'https://i.ibb.co/9kVwnsMg/untitled-0-7.png'
-    },
-    {
-      id: 6,
-      name: 'Чоловіча вишиванка ручної вишивки. Блакитна нитка 1',
-      sizes: ['S', 'M', 'L', 'XL', '2XL', '3XL', '4XL', '5XL'],
-      fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
-      color: 'Білий з блакитним',
-      sleeveLength: 'Довгий',
-      price: 1200,
-      image: 'https://i.ibb.co/KzcB5NQ5/untitled-0-5.png'
-    },
-    {
-      id: 7,
-      name: 'Чоловіча вишиванка ручної вишивки. Хакі',
-      sizes: ['S', 'M', 'L', 'XL', '2XL', '3XL', '4XL', '5XL'],
-      fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
-      color: 'Хакі',
-      sleeveLength: 'Короткий',
-      price: 1300,
-      image: 'https://i.ibb.co/Y7kCSYD7/untitled-0-4.png'
-    },
-    {
-      id: 8,
-      name: 'Чоловіча вишиванка ручної вишивки. Святкова',
-      sizes: ['S', 'M', 'L', 'XL', '2XL', '3XL', '4XL', '5XL'],
-      fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
-      color: 'Білий',
-      sleeveLength: 'Довгий',
-      price: 1200,
-      image: 'https://i.ibb.co/jPPJqDB8/untitled-0-3.png'
-    },
-    {
-      id: 9,
-      name: 'Чоловіча вишиванка ручної вишивки. Небо 1',
-      sizes: ['S', 'M', 'L', 'XL', '2XL', '3XL', '4XL', '5XL'],
-      fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
-      color: 'Блакитний',
-      sleeveLength: 'Короткий',
-      price: 1300,
-      image: 'https://i.ibb.co/LzcFwC1J/untitled-0-2.png'
-    },
-    {
-      id: 10,
-      name: 'Чоловіча вишиванка ручної вишивки. Небо',
-      sizes: ['S', 'M', 'L', 'XL', '2XL', '3XL', '4XL', '5XL'],
-      fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
-      color: 'Блакитний',
-      sleeveLength: 'Довгий',
-      price: 1300,
-      image: 'https://i.ibb.co/k6BhYTCh/image.png'
-    },
-    {
-      id: 11,
-      name: 'Чоловіча вишиванка ручної вишивки. Петро 1',
-      sizes: ['S', 'M', 'L', 'XL', '2XL', '3XL', '4XL', '5XL'],
-      fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
-      color: 'Чорний з червоним',
-      sleeveLength: 'Довгий',
-      price: 1200,
-      image: 'https://i.ibb.co/PvD1JdXg/untitled-0.png'
-    },
+    ,
     {
       id: 12,
       name: 'Чоловіча вишиванка ручної вишивки. Гетьман 1',
@@ -424,6 +315,116 @@ function App() {
 'https://i.ibb.co/4R92HwTk/stepova21ch.png',
 'https://i.ibb.co/gb3ynb2C/stepova22ch.png'
       ]
+    },
+    {
+      id: 1,
+      name: 'Чоловіча вишиванка ручної вишивки. Пасека 1',
+      sizes: ['S', 'M', 'L', 'XL', '2XL', '3XL', '4XL', '5XL'],
+      fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
+      color: 'Білий з червоним',
+      sleeveLength: 'Довгий',
+      price: 1200,
+      image: 'https://i.ibb.co/ksK6qcFm/untitled-0-10.png'
+    },
+    {
+      id: 2,
+      name: 'Чоловіча вишиванка ручної вишивки. Святкова 1',
+      sizes: ['S', 'M', 'L', 'XL', '2XL', '3XL', '4XL', '5XL'],
+      fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
+      color: 'Білий',
+      sleeveLength: 'Довгий',
+      price: 1200,
+      image: 'https://i.ibb.co/KcxGWG9y/untitled-0-9.png'
+    },
+    {
+      id: 3,
+      name: 'Чоловіча вишиванка ручної вишивки. Блакитна нитка',
+      sizes: ['S', 'M', 'L', 'XL', '2XL', '3XL', '4XL', '5XL'],
+      fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
+      color: 'Білий з блакитним',
+      sleeveLength: 'Довгий',
+      price: 1200,
+      image: 'https://i.ibb.co/Z1MPkBYv/untitled-0-8.png'
+    },
+    {
+      id: 4,
+      name: 'Чоловіча вишиванка ручної вишивки. Пасека',
+      sizes: ['S', 'M', 'L', 'XL', '2XL', '3XL', '4XL', '5XL'],
+      fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
+      color: 'Білий з червоним',
+      sleeveLength: 'Короткий',
+      price: 1200,
+      image: 'https://i.ibb.co/1G17q12R/untitled-0-6.png'
+    },
+    {
+      id: 5,
+      name: 'Чоловіча вишиванка ручної вишивки. Петро',
+      sizes: ['S', 'M', 'L', 'XL', '2XL', '3XL', '4XL', '5XL'],
+      fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
+      color: 'Чорний з червоним',
+      sleeveLength: 'Короткий',
+      price: 1200,
+      image: 'https://i.ibb.co/9kVwnsMg/untitled-0-7.png'
+    },
+    {
+      id: 6,
+      name: 'Чоловіча вишиванка ручної вишивки. Блакитна нитка 1',
+      sizes: ['S', 'M', 'L', 'XL', '2XL', '3XL', '4XL', '5XL'],
+      fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
+      color: 'Білий з блакитним',
+      sleeveLength: 'Довгий',
+      price: 1200,
+      image: 'https://i.ibb.co/KzcB5NQ5/untitled-0-5.png'
+    },
+    {
+      id: 7,
+      name: 'Чоловіча вишиванка ручної вишивки. Хакі',
+      sizes: ['S', 'M', 'L', 'XL', '2XL', '3XL', '4XL', '5XL'],
+      fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
+      color: 'Хакі',
+      sleeveLength: 'Короткий',
+      price: 1300,
+      image: 'https://i.ibb.co/Y7kCSYD7/untitled-0-4.png'
+    },
+    {
+      id: 8,
+      name: 'Чоловіча вишиванка ручної вишивки. Святкова',
+      sizes: ['S', 'M', 'L', 'XL', '2XL', '3XL', '4XL', '5XL'],
+      fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
+      color: 'Білий',
+      sleeveLength: 'Довгий',
+      price: 1200,
+      image: 'https://i.ibb.co/jPPJqDB8/untitled-0-3.png'
+    },
+    {
+      id: 9,
+      name: 'Чоловіча вишиванка ручної вишивки. Небо 1',
+      sizes: ['S', 'M', 'L', 'XL', '2XL', '3XL', '4XL', '5XL'],
+      fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
+      color: 'Блакитний',
+      sleeveLength: 'Короткий',
+      price: 1300,
+      image: 'https://i.ibb.co/LzcFwC1J/untitled-0-2.png'
+    },
+    {
+      id: 10,
+      name: 'Чоловіча вишиванка ручної вишивки. Небо',
+      sizes: ['S', 'M', 'L', 'XL', '2XL', '3XL', '4XL', '5XL'],
+      fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
+      color: 'Блакитний',
+      sleeveLength: 'Довгий',
+      price: 1300,
+      image: 'https://i.ibb.co/k6BhYTCh/image.png'
+    },
+    {
+      id: 11,
+      name: 'Чоловіча вишиванка ручної вишивки. Петро 1',
+      sizes: ['S', 'M', 'L', 'XL', '2XL', '3XL', '4XL', '5XL'],
+      fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
+      color: 'Чорний з червоним',
+      sleeveLength: 'Довгий',
+      price: 1200,
+      image: 'https://i.ibb.co/PvD1JdXg/untitled-0.png'
     }
   ];
 
