@@ -283,14 +283,14 @@ function App() {
       price: 1300,
       image: 'https://i.ibb.co/wFZ8XWSt/getman1.png',
       images: [
-'https://i.ibb.co/209qHk4k/otaman3.png'
-'https://i.ibb.co/k26nbqkm/otaman1.png'
+'https://i.ibb.co/209qHk4k/otaman3.png',
+'https://i.ibb.co/k26nbqkm/otaman1.png',
 'https://i.ibb.co/4Zc5QX3f/otaman2.png'
       ]
     },
     {
       id: 19,
-      name: 'Чоловіча вишиванка ручної вишивки. Козацька 4',
+      name: 'Чоловіча вишиванка ручної вишивки. Отаман 1с',
       sizes: ['S', 'M', 'L', 'XL', 'XXL', 'XXXL', 'XXXXL'],
       fabric: 'Домоткане полотно. 50% льону, 50% бавовна',
       color: '111111',
@@ -298,10 +298,10 @@ function App() {
       price: 1300,
       image: 'https://i.ibb.co/wFZ8XWSt/getman1.png',
       images: [
-        'https://i.ibb.co/wFZ8XWSt/getman1.png',
-        'https://i.ibb.co/Z6QVmrg9/getman2.png',
-        'https://i.ibb.co/v6Sgwbgx/getman3.png',
-        'https://i.ibb.co/HfBYy3f5/getman4.png'
+'https://i.ibb.co/rf5NCJLj/otaman1s.png',
+'https://i.ibb.co/VY6tSDzn/otaman2s.png',
+'https://i.ibb.co/Swy68gg9/otaman3s.png',
+'https://i.ibb.co/NHkjwFS/otaman4s.png'
       ]
     },
     {
