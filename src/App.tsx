@@ -44,12 +44,12 @@ function App() {
       color: 'Темно-синій',
       sleeveLength: 'Універсал',
       price: 1400,
-      image: 'https://i.ibb.co/wFZ8XWSt/getman1.png',
+      image: 'https://i.ibb.co/Nd7HTpw4/getman1.jpg',
       images: [
-  'https://i.ibb.co/wFZ8XWSt/getman1.png',
-  'https://i.ibb.co/Z6QVmrg9/getman2.png',
-  'https://i.ibb.co/v6Sgwbgx/getman3.png',
-  'https://i.ibb.co/HfBYy3f5/getman4.png'
+'https://i.ibb.co/Nd7HTpw4/getman1.jpg',
+'https://i.ibb.co/1trLt8XC/getman2.jpg',
+'https://i.ibb.co/DDPVgsNQ/getman3.jpg',
+'https://i.ibb.co/RGHz1C74/getman4.jpg'
       ]
     },
     {
@@ -60,12 +60,12 @@ function App() {
       color: 'Темно-синій',
       sleeveLength: 'Універсал',
       price: 1400,
-      image: 'https://i.ibb.co/wFZ8XWSt/getman1.png',
+      image: 'https://i.ibb.co/Nd7HTpw4/getman1.jpg',
       images: [
-  'https://i.ibb.co/2YWVKm92/getman21.png',
-  'https://i.ibb.co/1G3pz9mx/getman22.png',
-  'https://i.ibb.co/1HpCQc7/getman23.png',
-  'https://i.ibb.co/WvkP5bym/photo-2025-11-03-14-39-35-removebg-preview.png'
+'https://i.ibb.co/Rkrd6x0B/getman21.jpg',
+'https://i.ibb.co/kVpPYRQs/getman22.jpg',
+'https://i.ibb.co/rfvTSrcf/getman23.jpg',
+'https://i.ibb.co/KcG8Py5G/getman24.jpg'
       ]
     },
     {
@@ -76,12 +76,12 @@ function App() {
       color: 'Темно-синій',
       sleeveLength: 'Універсал',
       price: 1400,
-      image: 'https://i.ibb.co/wFZ8XWSt/getman1.png',
+      image: 'https://i.ibb.co/Nd7HTpw4/getman1.jpg',
       images: [
-'https://i.ibb.co/vxMxkDRB/getman33.png',
-'https://i.ibb.co/7JZgpqf5/getman32.png',
-'https://i.ibb.co/TqTGnqHN/getman34.png',
-'https://i.ibb.co/BH5Jtkys/getman31.png'
+'https://i.ibb.co/fd85tBym/getman31.jpg',
+'https://i.ibb.co/0yDkXC2N/getman32.jpg',
+'https://i.ibb.co/x88CRb1K/getman33.jpg',
+'https://i.ibb.co/S10TDVy/getman34.jpg'
       ]
     },
     {
@@ -92,12 +92,12 @@ function App() {
       color: 'Темно-синій',
       sleeveLength: 'Універсал',
       price: 1400,
-      image: 'https://i.ibb.co/wFZ8XWSt/getman1.png',
+      image: 'https://i.ibb.co/Nd7HTpw4/getman1.jpg',
       images: [
-'https://i.ibb.co/WWvMBbNT/getman42.png',
-'https://i.ibb.co/mCzN2y6K/getman44.png',
-'https://i.ibb.co/zT62DtGQ/getman41.png',
-'https://i.ibb.co/zhwzFC6S/getman43.png'
+'https://i.ibb.co/1fsgJcpT/getman44.jpg',
+'https://i.ibb.co/DfbZV4b9/getman41.jpg',
+'https://i.ibb.co/S4WH7B2Z/getman42.jpg',
+'https://i.ibb.co/0VB8tynf/getman43.jpg'
       ]
     },
     {
@@ -108,12 +108,12 @@ function App() {
       color: 'Насичений блакитний',
       sleeveLength: 'Універсал',
       price: 1400,
-      image: 'https://i.ibb.co/wFZ8XWSt/getman1.png',
+      image: 'https://i.ibb.co/Nd7HTpw4/getman1.jpg',
       images: [
-'https://i.ibb.co/Hfz5N8sb/cossacks4.png',
-'https://i.ibb.co/qM4bGRbg/cossacks1.png',
-'https://i.ibb.co/NgQHxGZd/cossacks2.png',
-'https://i.ibb.co/zTt7S6gb/cossacks3.png'
+'https://i.ibb.co/k2LHpZXN/cossacks1.jpg',
+'https://i.ibb.co/KxvWnGT4/cossacks2.jpg',
+'https://i.ibb.co/vvVFJcD9/cossacks3.jpg',
+'https://i.ibb.co/hRTjq9g5/cossacks4.jpg'
       ]
     },
     {
@@ -124,12 +124,12 @@ function App() {
       color: 'Насичений блакитний',
       sleeveLength: 'Універсал',
       price: 1400,
-      image: 'https://i.ibb.co/wFZ8XWSt/getman1.png',
+      image: 'https://i.ibb.co/Nd7HTpw4/getman1.jpg',
       images: [
-'https://i.ibb.co/d4Vz3b3B/cossacks34.png',
-'https://i.ibb.co/TMBkbZc1/cossacks31.png',
-'https://i.ibb.co/HDYxTY4f/cossacks32.png',
-'https://i.ibb.co/VpN3HWGQ/cossacks33.png'
+'https://i.ibb.co/N2F48rBx/cossacks31.jpg',
+'https://i.ibb.co/x8sT1Ycp/cossacks32.jpg',
+'https://i.ibb.co/x8czzdwX/cossacks33.jpg',
+'https://i.ibb.co/ksbx4kGd/cossacks34.jpg'
       ]
     },
     {
@@ -140,12 +140,12 @@ function App() {
       color: 'Насичений блакитний',
       sleeveLength: 'Універсал',
       price: 1400,
-      image: 'https://i.ibb.co/wFZ8XWSt/getman1.png',
+      image: 'https://i.ibb.co/Nd7HTpw4/getman1.jpg',
       images: [
-'https://i.ibb.co/C3q62fgP/cossacks42.png',
-'https://i.ibb.co/nq6jFYLC/cossacks43.png',
-'https://i.ibb.co/mCM2zcFM/cossacks44.png',
-'https://i.ibb.co/99d0W5fF/cossacks41.png'
+'https://i.ibb.co/MD6p39dG/cossacks41.jpg',
+'https://i.ibb.co/Lhb027NC/cossacks42.jpg',
+'https://i.ibb.co/DPnNq9qN/cossacks43.jpg',
+'https://i.ibb.co/ZzXbzN5p/cossacks44.jpg'
       ]
     },
     {
@@ -156,11 +156,11 @@ function App() {
       color: 'Білий з чорним',
       sleeveLength: 'Універсал',
       price: 1400,
-      image: 'https://i.ibb.co/wFZ8XWSt/getman1.png',
+      image: 'https://i.ibb.co/Nd7HTpw4/getman1.jpg',
       images: [
-'https://i.ibb.co/209qHk4k/otaman3.png',
-'https://i.ibb.co/k26nbqkm/otaman1.png',
-'https://i.ibb.co/4Zc5QX3f/otaman2.png'
+'https://i.ibb.co/C3FD5KQt/otaman1.jpg',
+'https://i.ibb.co/zWV33b76/otaman2.jpg',
+'https://i.ibb.co/mFd0z6nz/otaman3.jpg'
       ]
     },
     {
@@ -171,12 +171,12 @@ function App() {
       color: 'Білий з синім',
       sleeveLength: 'Універсал',
       price: 1400,
-      image: 'https://i.ibb.co/wFZ8XWSt/getman1.png',
+      image: 'https://i.ibb.co/Nd7HTpw4/getman1.jpg',
       images: [
-'https://i.ibb.co/rf5NCJLj/otaman1s.png',
-'https://i.ibb.co/VY6tSDzn/otaman2s.png',
-'https://i.ibb.co/Swy68gg9/otaman3s.png',
-'https://i.ibb.co/NHkjwFS/otaman4s.png'
+'https://i.ibb.co/b55rJDwZ/otaman1s.jpg',
+'https://i.ibb.co/qYP1zvrF/otaman2s.jpg',
+'https://i.ibb.co/3y1fQDXh/otaman3s.jpg',
+'https://i.ibb.co/99c5kygx/otaman4s.jpg'
       ]
     },
     {
@@ -187,11 +187,11 @@ function App() {
       color: 'Білий з червоним',
       sleeveLength: 'Універсал',
       price: 1400,
-      image: 'https://i.ibb.co/wFZ8XWSt/getman1.png',
+      image: 'https://i.ibb.co/Nd7HTpw4/getman1.jpg',
       images: [
-'https://i.ibb.co/MDdcpkr3/otaman1ch.png',
-'https://i.ibb.co/GfHJnczR/otaman2ch.png',
-'https://i.ibb.co/1D0HcMG/otaman3ch.png'
+'https://i.ibb.co/zhRJqbG1/otaman1ch.jpg',
+'https://i.ibb.co/VckPDhx9/otaman2ch.jpg',
+'https://i.ibb.co/Y7DpdBvj/otaman3ch.jpg'
       ]
     },
     {
@@ -202,10 +202,10 @@ function App() {
       color: 'Білий з синім',
       sleeveLength: 'Універсал',
       price: 1400,
-      image: 'https://i.ibb.co/wFZ8XWSt/getman1.png',
+      image: 'https://i.ibb.co/Nd7HTpw4/getman1.jpg',
       images: [
-'https://i.ibb.co/RTt3Bv36/otaman22s.png',
-'https://i.ibb.co/twbZNnmv/otaman21s.png'
+'https://i.ibb.co/W432FhNr/otaman21s.jpg',
+'https://i.ibb.co/3y9sR6b3/otaman22s.jpg'
       ]
     },
     {
@@ -216,12 +216,12 @@ function App() {
       color: 'Білий з червоним',
       sleeveLength: 'Універсал',
       price: 1400,
-      image: 'https://i.ibb.co/wFZ8XWSt/getman1.png',
+      image: 'https://i.ibb.co/Nd7HTpw4/getman1.jpg',
       images: [
-'https://i.ibb.co/qvPLFch/otaman24ch.png',
-'https://i.ibb.co/Y72ytHFN/otaman21ch.png',
-'https://i.ibb.co/QF8KpNmd/otaman22ch.png',
-'https://i.ibb.co/ZR1L080q/otaman23ch.png'
+'https://i.ibb.co/prKwFNK1/otaman24ch.jpg',
+'https://i.ibb.co/996y85Nr/otaman21ch.jpg',
+'https://i.ibb.co/HfYqCyfp/otaman22ch.jpg',
+'https://i.ibb.co/gLFzCd2f/otaman23ch.jpg'
       ]
     },
     {
@@ -232,12 +232,12 @@ function App() {
       color: 'Білий',
       sleeveLength: 'Універсал',
       price: 1400,
-      image: 'https://i.ibb.co/wFZ8XWSt/getman1.png',
+      image: 'https://i.ibb.co/Nd7HTpw4/getman1.jpg',
       images: [
-'https://i.ibb.co/DPw4Dk1s/otaman34.png',
-'https://i.ibb.co/fzm1G8Z4/otaman31.png',
-'https://i.ibb.co/Gf86P6Hk/otaman32.png',
-'https://i.ibb.co/Ld1fKbxQ/otaman33.png'
+'https://i.ibb.co/fd7079BQ/otaman31.jpg',
+'https://i.ibb.co/GyjLs9t/otaman32.jpg',
+'https://i.ibb.co/0R52xLJt/otaman33.jpg',
+'https://i.ibb.co/JRCd1Rcs/otaman34.jpg'
       ]
     },
     {
@@ -248,12 +248,12 @@ function App() {
       color: 'Білий з золотим',
       sleeveLength: 'Універсал',
       price: 1400,
-      image: 'https://i.ibb.co/wFZ8XWSt/getman1.png',
+      image: 'https://i.ibb.co/Nd7HTpw4/getman1.jpg',
       images: [
-'https://i.ibb.co/tw6LxK52/otaman44.png',
-'https://i.ibb.co/Kcbr9mzC/otaman41.png',
-'https://i.ibb.co/Q76Twwzk/otaman42.png',
-'https://i.ibb.co/0Rhz7tWF/otaman43.png'
+'https://i.ibb.co/CKG1PtTr/otaman41.jpg',
+'https://i.ibb.co/4DGwyJt/otaman42.jpg',
+'https://i.ibb.co/x81rqVwr/otaman43.jpg',
+'https://i.ibb.co/zTYLcpJf/otaman44.jpg'
       ]
     },
     {
@@ -264,11 +264,11 @@ function App() {
       color: 'Бежевий з синім',
       sleeveLength: 'Універсал',
       price: 1400,
-      image: 'https://i.ibb.co/wFZ8XWSt/getman1.png',
+      image: 'https://i.ibb.co/Nd7HTpw4/getman1.jpg',
       images: [
-'https://i.ibb.co/wFTDYZ88/stepova3.png',
-'https://i.ibb.co/0yZSVMxM/stepova1.png',
-'https://i.ibb.co/chZxG2CQ/stepova2.png'
+'https://i.ibb.co/0Rkcc5FR/stepova1.jpg',
+'https://i.ibb.co/PzVrt5js/stepova2.jpg',
+'https://i.ibb.co/DP7zzFkm/stepova3.jpg'
       ]
     },
     {
@@ -279,10 +279,10 @@ function App() {
       color: 'Бежевий з синім',
       sleeveLength: 'Універсал',
       price: 1400,
-      image: 'https://i.ibb.co/wFZ8XWSt/getman1.png',
+      image: 'https://i.ibb.co/Nd7HTpw4/getman1.jpg',
       images: [
-'https://i.ibb.co/rGnBqcQj/stepova22s.png',
-'https://i.ibb.co/8gyLXdn8/stepova21s.png'
+'https://i.ibb.co/9mdL2fkq/stepova21s.jpg',
+'https://i.ibb.co/x8fTDZJm/stepova22s.jpg'
       ]
     },
     {
@@ -293,11 +293,11 @@ function App() {
       color: 'Бежевий з червоним',
       sleeveLength: 'Універсал',
       price: 1400,
-      image: 'https://i.ibb.co/wFZ8XWSt/getman1.png',
+      image: 'https://i.ibb.co/Nd7HTpw4/getman1.jpg',
       images: [
-'https://i.ibb.co/qYKxP4SF/stepova23ch.png',
-'https://i.ibb.co/4R92HwTk/stepova21ch.png',
-'https://i.ibb.co/gb3ynb2C/stepova22ch.png'
+'https://i.ibb.co/V0DG08BC/stepova21ch.jpg',
+'https://i.ibb.co/W4r4v3JS/stepova22ch.jpg',
+'https://i.ibb.co/3y308PgG/stepova23ch.jpg'
       ]
     },
     {
