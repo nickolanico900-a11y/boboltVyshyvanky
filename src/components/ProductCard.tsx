@@ -115,10 +115,10 @@ const ProductCard: React.FC<ProductCardProps> = ({ product, onAddToCart, openDro
         onSelectSize={handleSizeSelect}
       />
 
-      <div className={`bg-amber-50 rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 relative flex flex-col ${
+      <div className={`bg-amber-50 rounded-xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 relative flex flex-col ${
         showSizes ? 'z-[100]' : 'z-10'
       }`}>
-        <div className="aspect-square mb-4 overflow-hidden rounded-lg relative">
+        <div className="aspect-square mb-6 overflow-hidden rounded-lg relative">
           <img
             src={productImages[currentImageIndex]}
             alt={product.name}
@@ -129,22 +129,22 @@ const ProductCard: React.FC<ProductCardProps> = ({ product, onAddToCart, openDro
           />
 
           {/* Product badges */}
-          <div className="absolute top-3 left-3 flex flex-col gap-2">
-            <div className="bg-white bg-opacity-90 rounded-full p-2 shadow-sm" title="Ручна робота">
-              <Package className="w-4 h-4 text-amber-700" />
+          <div className="absolute top-4 left-4 flex flex-col gap-2">
+            <div className="bg-white bg-opacity-90 rounded-full p-3 shadow-sm" title="Ручна робота">
+              <Package className="w-5 h-5 text-amber-700" />
             </div>
-            <div className="bg-white bg-opacity-90 rounded-full p-2 shadow-sm" title="Натуральні матеріали">
-              <Leaf className="w-4 h-4 text-green-600" />
+            <div className="bg-white bg-opacity-90 rounded-full p-3 shadow-sm" title="Натуральні матеріали">
+              <Leaf className="w-5 h-5 text-green-600" />
             </div>
-            <div className="bg-white bg-opacity-90 rounded-full p-2 shadow-sm" title="Зроблено в Україні">
-              <MapPin className="w-4 h-4 text-blue-600" />
+            <div className="bg-white bg-opacity-90 rounded-full p-3 shadow-sm" title="Зроблено в Україні">
+              <MapPin className="w-5 h-5 text-blue-600" />
             </div>
           </div>
         </div>
 
         {/* Image carousel under the image */}
         {hasMultipleImages && (
-          <div className="flex items-center justify-center gap-2 mb-4">
+          <div className="flex items-center justify-center gap-3 mb-6">
             {productImages.map((_, index) => (
               <button
                 key={index}
@@ -152,7 +152,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product, onAddToCart, openDro
                   e.stopPropagation();
                   setCurrentImageIndex(index);
                 }}
-                className={`h-16 w-16 rounded-lg overflow-hidden border-2 transition-all ${
+                className={`h-20 w-20 rounded-lg overflow-hidden border-2 transition-all ${
                   index === currentImageIndex
                     ? 'border-amber-900 shadow-lg scale-105'
                     : 'border-amber-200 hover:border-amber-500 opacity-60 hover:opacity-100'
@@ -171,19 +171,19 @@ const ProductCard: React.FC<ProductCardProps> = ({ product, onAddToCart, openDro
           </div>
         )}
       
-      <h3 className="text-xl font-bold text-amber-900 mb-3" style={{ fontFamily: 'PT Serif, serif' }}>
+      <h3 className="text-2xl font-bold text-amber-900 mb-4" style={{ fontFamily: 'PT Serif, serif' }}>
         {product.name}
       </h3>
-      
-      <div className="space-y-1 text-sm text-amber-800 mb-4">
+
+      <div className="space-y-2 text-base text-amber-800 mb-5">
         <p><span className="font-semibold">Розмір:</span> {product.sizes.join(', ')}</p>
         <p><span className="font-semibold">Тканина:</span> {product.fabric}</p>
         <p><span className="font-semibold">Колір:</span> {product.color}</p>
         <p><span className="font-semibold">Довжина рукава:</span> {product.sleeveLength}</p>
       </div>
       
-      <div className="bg-amber-200 rounded-lg px-4 py-2 inline-block mb-4 mt-auto">
-        <span className="text-lg font-bold text-amber-900">{product.price} грн</span>
+      <div className="bg-amber-200 rounded-lg px-6 py-3 inline-block mb-5 mt-auto">
+        <span className="text-2xl font-bold text-amber-900">{product.price} грн</span>
       </div>
       
       {/* Size selection */}
@@ -191,14 +191,14 @@ const ProductCard: React.FC<ProductCardProps> = ({ product, onAddToCart, openDro
         {!selectedSize ? (
           <button
             onClick={() => setIsSizeChartOpen(true)}
-            className="w-full bg-amber-700 hover:bg-amber-800 text-white px-4 py-3 rounded-lg font-semibold transition-colors duration-200"
+            className="w-full bg-amber-700 hover:bg-amber-800 text-white px-6 py-4 rounded-lg text-lg font-semibold transition-colors duration-200"
           >
             Обрати розмір
           </button>
         ) : (
-          <div className="space-y-2">
-            <div className="flex items-center justify-between bg-amber-100 px-4 py-2 rounded-lg">
-              <span className="font-semibold text-amber-900">Розмір: {selectedSize}</span>
+          <div className="space-y-3">
+            <div className="flex items-center justify-between bg-amber-100 px-5 py-3 rounded-lg">
+              <span className="text-lg font-semibold text-amber-900">Розмір: {selectedSize}</span>
               <button
                 onClick={() => setSelectedSize('')}
                 className="text-amber-700 hover:text-amber-900 text-sm underline"
@@ -210,7 +210,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product, onAddToCart, openDro
             <button
               onClick={handleAddToCart}
               disabled={isAdded}
-              className={`w-full px-4 py-3 rounded-lg font-semibold transition-all duration-300 flex items-center justify-center gap-2 ${
+              className={`w-full px-6 py-4 rounded-lg text-lg font-semibold transition-all duration-300 flex items-center justify-center gap-2 ${
                 isAdded 
                   ? 'bg-green-600 text-white' 
                   : 'bg-amber-700 hover:bg-amber-800 text-white hover:shadow-lg transform hover:scale-105'
@@ -218,12 +218,12 @@ const ProductCard: React.FC<ProductCardProps> = ({ product, onAddToCart, openDro
             >
               {isAdded ? (
                 <>
-                  <Check className="w-5 h-5" />
+                  <Check className="w-6 h-6" />
                   Додано!
                 </>
               ) : (
                 <>
-                  <ShoppingCart className="w-5 h-5" />
+                  <ShoppingCart className="w-6 h-6" />
                   Додати до замовлення
                 </>
               )}

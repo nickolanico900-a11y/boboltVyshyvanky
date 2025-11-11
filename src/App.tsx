@@ -734,11 +734,11 @@ function App() {
 
       {/* Products Section */}
       <section id="products-section" className="py-16 px-4 bg-white">
-        <div className="max-w-6xl mx-auto">
+        <div className="max-w-7xl mx-auto">
           <h2 className="text-4xl font-bold text-amber-900 mb-12 text-center" style={{ fontFamily: 'Oswald, sans-serif' }}>
             Наші вишиванки
           </h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {products.map((product) => (
               <ProductCard
                 key={product.id}
